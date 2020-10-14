@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pailedi.wd.mix.demo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- targetSdkVersion >= 26 时需要配置此权限，否则无法进行安装app的动作 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 如果需要精确定位的话请加上此权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 如果有视频相关的广告且使用textureView播放，请务必添加，否则黑屏 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name="com.pailedi.wd.PldApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name="com.pailedi.wd.mix.SplashAdActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.pailedi.wd.platform.UWD"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.pailedi.wd.sdk.action.MainPage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <!-- targetSDKVersion >= 24时才需要添加这个 provider。provider 的 authorities 属性的值为 ${applicationId}.fileprovider -->
+        <!-- applicationId 默认不需要改动，打包出现关于"$"的报错时，才需要将 ${applicationId} 更改为你的包名 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/gdt_file_path" />
+        </provider>
+
+        <!-- 声明 SDK 所需要的组件 -->
+        <service
+            android:name="com.qq.e.comm.DownloadService"
+            android:exported="false" />
+        <!-- 请开发者注意字母的大小写，ADActivity，而不是 AdActivity -->
+        <activity
+            android:name="com.qq.e.ads.ADActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.qq.e.ads.PortraitADActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.qq.e.ads.LandscapeADActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+
+        <provider
+            android:name="com.bytedance.sdk.openadsdk.TTFileProvider"
+            android:authorities="${applicationId}.TTFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <!-- 单进程还是多进程都必须配置 -->
+        <!-- applicationId 不要动 -->
+        <provider
+            android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
+            android:authorities="${applicationId}.TTMultiProvider"
+            android:exported="false" />
+
+        <!-- targetSDKVersion >= 24时才需要添加这个provider。provider的authorities属性的值为${applicationId}.sigprovider -->
+        <!-- applicationId 默认不需要改动，打包出现关于"$"的报错时，才需要将 ${applicationId} 更改为你的包名 -->
+        <provider
+            android:name="com.sigmob.sdk.SigmobFileProvider"
+            android:authorities="${applicationId}.sigprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/sigmob_provider_paths" />
+        </provider>
+
+        <!--广告展示Activity -->
+        <activity
+            android:name="com.sigmob.sdk.base.common.AdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.DeviceDefault" />
+
+        <!-- 安装apk必需，适配Android 7.0 以及 8.0 -->
+        <!-- applicationId 默认不需要改动，打包出现关于"$"的报错时，才需要将 ${applicationId} 更改为你的包名 -->
+        <provider
+            android:name="com.pailedi.wd.provider.UpdateFileProvider"
+            android:authorities="${applicationId}.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/apk_file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.pailedi.wd.adpld.LandingPageActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <provider
+            android:name="com.pailedi.wd.adpld.download.ApkProvider"
+            android:authorities="${applicationId}.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/pld_file_paths" />
+        </provider>
+
+        <!-- 禁止修改 -->
+        <meta-data
+            android:name="APP_EDITION"
+            android:value="mix" />
+
+        <!-- pld的统计 id -->
+        <meta-data
+            android:name="PLD_MediaId"
+            android:value="4355" />
+
+        <!--融合SDK唯一Id, 用于从后台拉取广告所需的全部数据-->
+        <meta-data
+            android:name="mix_uniqueId"
+            android:value="5f6dc38e9afbft0q" />
+
+        <!--融合SDK app 名称-->
+        <meta-data
+            android:name="mix_appName"
+            android:value="钢铁坦克之战" />
+
+        <!--Banner的位置-->
+        <!--由于SKY一种广告最多只能有一个广告位，所以也不支持多个Banner-->
+        <!--android:value 格式：gravity*top*bottom*left*right，不允许空格-->
+        <!--gravity: 1:顶部居左 2:顶部居右 3:顶部居中 4:底部居左 5:底部居右 6:底部居中-->
+        <!--top,bottom,left,right 分别为上下左右与屏幕边缘的距离，单位为dp-->
+        <meta-data
+            android:name="banner_position"
+            android:value="6*0*0*0*0" />
+
+        <!--Banner的刷新时间间隔-->
+        <!--由于SKY一种广告最多只能有一个广告位，所以也不支持多个Banner-->
+        <!--单位秒(间隔在30到120之间)，不填写默认30秒，如果不需要轮播，设置0 或者 上述时间间隔之外的值，推荐设置0-->
+        <meta-data
+            android:name="banner_refresh_interval"
+            android:value="30" />
+
+        <!--Banner的尺寸-->
+        <!--由于SKY一种广告最多只能有一个广告位，所以也不支持多个Banner-->
+        <!--单位dp，必须按 宽*高的格式填，不能有空格，不填默认为300*60 -->
+        <!--宽设置-1时，Banner宽度全屏，高度SDK会根据不同平台情况决定是否使用 -->
+        <meta-data
+            android:name="banner_size"
+            android:value="300*60" />
+
+        <!--原生Banner的位置-->
+        <!--由于SKY一种广告最多只能有一个广告位，所以也不支持多个原生Banner-->
+        <!--android:value 格式：gravity*top*bottom*left*right，不允许空格-->
+        <!--gravity: 1:顶部居左 2:顶部居右 3:顶部居中 4:底部居左 5:底部居右 6:底部居中-->
+        <!--top,bottom,left,right 分别为上下左右与屏幕边缘的距离，单位为dp-->
+        <meta-data
+            android:name="native_banner_position"
+            android:value="3*0*0*0*0" />
+
+        <!--原生Banner的刷新时间间隔-->
+        <!--由于SKY一种广告最多只能有一个广告位，所以也不支持多个原生Banner-->
+        <!--单位秒,不填写默认15秒，如果不需要轮播，设置0 或者 上述时间间隔之外的值，推荐设置0-->
+        <meta-data
+            android:name="native_banner_refresh_interval"
+            android:value="10" />
+
+        <!-- 原生banner的尺寸-->
+        <!--由于SKY一种广告最多只能有一个广告位，所以也不支持多个原生Banner-->
+        <!-- 单位dp，必须按 宽*高的格式填，不能有空格，不填默认为300*60 -->
+        <!-- 宽设置-1时，原生Banner宽度全屏，高度SDK会根据不同平台情况决定是否使用 -->
+        <meta-data
+            android:name="native_banner_size"
+            android:value="-1*100" />
+
+        <!--开屏的尺寸-->
+        <!--按照运营申请的开屏宽高设置，必须按 宽*高的格式填，不能有空格，不填默认为1080*1920 -->
+        <!--支持尺寸："1080*1920", "1242*1863", "1200*1600", "1280*1530", "1280*755"-->
+        <meta-data
+            android:name="tt_splash_size"
+            android:value="1080*1920" />
+
+        <!-- TalkingData的appid -->
+        <meta-data
+            android:name="td_appid"
+            android:value="FD2CA07DA8EE4994B0DE316BBA589A5D" />
+
+        <!-- bugly的appid -->
+        <meta-data
+            android:name="BUGLY_APPID"
+            android:value="1253750191" />
+
+        <!-- APP渠道号 -->
+        <!-- BUGLY_APP_VERSION的版本号必须跟应用的版本号一致 -->
+        <meta-data
+            android:name="BUGLY_APP_VERSION"
+            android:value="1.0.0" />
+
+        <!-- BUGLY、TalkingData 和 App更新 的渠道 -->
+        <!-- SDK对应的渠道 -->
+        <meta-data
+            android:name="BUGLY_APP_CHANNEL"
+            android:value="锤子" />
+
+        <!-- Bugly调试模式（true或者false）-->
+        <!-- 是否为debug模式 -->
+        <meta-data
+            android:name="BUGLY_ENABLE_DEBUG"
+            android:value="true" />
+    </application>
+
+</manifest>

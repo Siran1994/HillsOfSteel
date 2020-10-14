@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f518568847bd03cb9eccae87ad188143, type: 3}
+  m_Name: "Settings"
+  m_EditorClassIdentifier: 
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea: 
+  gameKey:
+  - "1a971c9070736bfad6351bab2cf9e3d4"
+  - "de8803b23d25448682a0f768b3e9d701"
+  secretKey:
+  - "db2906c93285c678b7d7db9e46febfc931cd17d4"
+  - "f736135054ac01515911d14ddacd891c2c8239f9"
+  Build:
+  - "2.2.0"
+  - "2.2.0"
+  SelectedPlatformStudio:
+  - "Superplus Games"
+  - "Superplus Games"
+  SelectedPlatformGame:
+  - "Hills of Steel"
+  - "Hills of Steel"
+  SelectedPlatformGameID: 4B91000048910000
+  SelectedStudio: 0100000001000000
+  SelectedGame: 0100000002000000
+  NewVersion: "5.0.10"
+  Changes: "5.0.10\n- fixed business event validation\n\n5.0.9\n- fixed json deserializing
+  for desktop platforms\n\n5.0.8\n- fixed freeze bug on exit for desktop
+  platforms"
+  SignUpOpen: 0
+  StudioName: "Superplus Games"
+  GameName: "Hills of Steel"
+  EmailGA: "aarni@superplusgames.com"
+  IntroScreen: 0
+  InfoLogEditor: 0
+  InfoLogBuild: 0
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  InternetConnectivity: 0
+  CustomDimensions01:
+  - "Midsummer Siege 0"
+  - "Midsummer Siege 1"
+  - "Midsummer Siege 2"
+  - "Midsummer Siege 3"
+  - "Midsummer Siege 4"
+  - "Winter War 0"
+  - "Winter War 1"
+  - "Winter War 2"
+  - "Winter War 3"
+  - "Winter War 4"
+  - "Desert Assault 0"
+  - "Desert Assault 1"
+  - "Desert Assault 2"
+  - "Desert Assault 3"
+  - "Desert Assault 4"
+  - "Jungle Patrol 0"
+  - "Jungle Patrol 1"
+  - "Jungle Patrol 2"
+  - "Jungle Patrol 3"
+  - "Jungle Patrol 4"
+  CustomDimensions02:
+  - "Cobra"
+  - "Joker"
+  - "Titan"
+  - "Phoenix"
+  - "Reaper"
+  CustomDimensions03:
+  - "Midsummer Siege 0"
+  - "Midsummer Siege 1"
+  - "Midsummer Siege 2"
+  - "Midsummer Siege 3"
+  - "Midsummer Siege 4"
+  - "Midsummer Siege 5"
+  - "Midsummer Siege 6"
+  - "Midsummer Siege 7"
+  - "Midsummer Siege 8"
+  - "Midsummer Siege 9"
+  - "Midsummer Siege 10"
+  - "Midsummer Siege 11"
+  - "Midsummer Siege 12"
+  - "Midsummer Siege 13"
+  - "Midsummer Siege 14"
+  - "Midsummer Siege 15"
+  - "Midsummer Siege 16"
+  - "Midsummer Siege 17"
+  - "Midsummer Siege 18"
+  - "Midsummer Siege 19"
+  ResourceItemTypes:
+  - "iap"
+  - "revive"
+  - "upgrade"
+  - "game"
+  - "dailyReward"
+  - "skin"
+  - "level"
+  - "booster"
+  - "chest"
+  - "tank"
+  - "coins"
+  ResourceCurrencies:
+  - "coins"
+  - "cards"
+  - "gems"
+  LastCreatedGamePlatform: -1
+  Platforms: 080000000B000000
+  CurrentInspectorState: 1
+  ClosedHints: 
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: aaaddd836ca4468c82409106b114cf11, type: 3}
+  UpdateIcon: {fileID: 2800000, guid: f5f16f0854b449be8365554babc263f7, type: 3}
+  InfoIcon: {fileID: 2800000, guid: 494b899c9b8744af8aefeb22fd0cf280, type: 3}
+  DeleteIcon: {fileID: 2800000, guid: 62f2f069a3294e33916901d7d4d8ee89, type: 3}
+  GameIcon: {fileID: 2800000, guid: dca6fd0a3a2b441eadc0912f0676a2c1, type: 3}
+  HomeIcon: {fileID: 2800000, guid: 8eea8ff9f2c64db3981788c34d247470, type: 3}
+  InstrumentIcon: {fileID: 2800000, guid: 9bce0c26c3e645c48eaad5d2bb9046ad, type: 3}
+  QuestionIcon: {fileID: 2800000, guid: d1ce0ec97fad44679b53944fb05161ac, type: 3}
+  UserIcon: {fileID: 2800000, guid: 5712a09aff5a426e8196e9bafa0d3639, type: 3}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UsePlayerSettingsBuildNumber: 0
+  SubmitErrors: 1
+  MaxErrorCount: 10
+  SubmitFpsAverage: 1
+  SubmitFpsCritical: 1
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 20
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut: 0101
+  CustomDimensions01FoldOut: 1
+  CustomDimensions02FoldOut: 1
+  CustomDimensions03FoldOut: 1
+  ResourceItemTypesFoldOut: 1
+  ResourceCurrenciesFoldOut: 1

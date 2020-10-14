@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59a4e78d9a7501f340f13131b1a3247e, type: 3}
+  m_Name: AudioMap
+  m_EditorClassIdentifier: 
+  tankShellHitsGround:
+  - audioClip: {fileID: 8300000, guid: 0b653917763846528809df08e81f2090, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 93223ae905e74bd394286ab765957b4b, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  tankPartHitsAnything:
+  - audioClip: {fileID: 8300000, guid: 5e6b5149030347868b9d5c5200dcad0b, type: 3}
+    volume: 0.25
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 5a5bb83360b340f6bcc486dfb7a75361, type: 3}
+    volume: 0.25
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 9d40c79799a04846a5862e1663163256, type: 3}
+    volume: 0.25
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 3bdebe082bea46b8918e66efa84a2fa8, type: 3}
+    volume: 0.25
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 8a6bb296d5174bf7a56072d241275b2d, type: 3}
+    volume: 0.25
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: d7852e4db71544e3a69161309843ef95, type: 3}
+    volume: 0.25
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 8a8cf6ddb1e948f58e492c468130ecbd, type: 3}
+    volume: 0.25
+    loopingSound: 0
+  tankHit:
+  - audioClip: {fileID: 8300000, guid: f6fcd070fd8c44498531e3fa6767cb64, type: 3}
+    volume: 0.35
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: cec32ad290fd480fb04de3671be27d11, type: 3}
+    volume: 0.35
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 9f3aba38eee2461487a8d9cb4dc02d3f, type: 3}
+    volume: 0.35
+    loopingSound: 0
+  tankGunReloaded:
+  - audioClip: {fileID: 8300000, guid: 36a66e21bf0b4932bc648512db5439ae, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  tankBurning:
+  - audioClip: {fileID: 8300000, guid: 9a82e0f547a048259f3d763583c5fa23, type: 3}
+    volume: 0.75
+    loopingSound: 0
+  tankDestroyed:
+  - audioClip: {fileID: 8300000, guid: 9b571cd8db964516891d1ee09052ed0e, type: 3}
+    volume: 0.2
+    loopingSound: 0
+  tankExplodes:
+  - audioClip: {fileID: 8300000, guid: 5cc84a6bbec2452db3dfd22b2c2f07c3, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  tankIgnition:
+  - audioClip: {fileID: 8300000, guid: c78939c735534b3394077e72ef227513, type: 3}
+    volume: 1
+    loopingSound: 0
+  playerTankFiring:
+  - audioClip: {fileID: 8300000, guid: d1539c1b4f304879b1b5f9a4e18aa38d, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  playerTankMissileFiring:
+  - audioClip: {fileID: 8300000, guid: 45f639c005a94553936e0ed037f6569c, type: 3}
+    volume: 1
+    loopingSound: 0
+  playerEngineIdle:
+  - audioClip: {fileID: 8300000, guid: cc205694fbfe485bad24ddbca91cc83a, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  smallTankFiring:
+  - audioClip: {fileID: 0}
+    volume: 0.5
+    loopingSound: 0
+  tigerTankFiring:
+  - audioClip: {fileID: 8300000, guid: d1539c1b4f304879b1b5f9a4e18aa38d, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  stuartTankFiring:
+  - audioClip: {fileID: 8300000, guid: f9cf48ba7fd840a294ff78be575e5b6c, type: 3}
+    volume: 1
+    loopingSound: 0
+  mortarTankFiring:
+  - audioClip: {fileID: 8300000, guid: 6f38261c79f54bd7bc2d0a8f320956e6, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  missileTankFiring:
+  - audioClip: {fileID: 8300000, guid: 9e742cb18cb048c0a999b3737745d969, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  machineGunTankFiring:
+  - audioClip: {fileID: 8300000, guid: 4a5473fb10b84fec80fc3a02d970a08e, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 9816bf142f534cf0af4e0f5c3426b113, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 8a87c619ff82445da851d222ba8f00e5, type: 3}
+    volume: 1
+    loopingSound: 0
+  machineGunMiss:
+  - audioClip: {fileID: 8300000, guid: 905d0777952446c6a77195012aa9b99b, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: da2da503afbb4bf2ad093bc3b4ba507e, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 8868d24ff98c488c9a48a656af229319, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: ee394432c9d840299df0d7caa7ee2576, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: d097e42483aa4af1918b2c4891c3eef7, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  copterAiming:
+  - audioClip: {fileID: 8300000, guid: 2ace211dc2be4789b42359c14960ae50, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  copterFiring:
+  - audioClip: {fileID: 8300000, guid: 71947fed905d46719024db11f079dcad, type: 3}
+    volume: 0.5
+    loopingSound: 1
+  copterFiringEnd:
+  - audioClip: {fileID: 8300000, guid: 8bc3b28d452641bcb70b0153b427f465, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  minigunFiringStart:
+  - audioClip: {fileID: 8300000, guid: 2ace211dc2be4789b42359c14960ae50, type: 3}
+    volume: 0
+    loopingSound: 0
+  minigunFiring:
+  - audioClip: {fileID: 8300000, guid: d575550c945c4475bd7152cbea8041ad, type: 3}
+    volume: 0.3
+    loopingSound: 1
+  minigunFiringEnd:
+  - audioClip: {fileID: 8300000, guid: 8bc3b28d452641bcb70b0153b427f465, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  flamerFiring:
+  - audioClip: {fileID: 8300000, guid: 4e668a6dc95549a1add8edc943524bc4, type: 3}
+    volume: 1
+    loopingSound: 0
+  lightningFiring:
+  - audioClip: {fileID: 8300000, guid: 32bb2c5d70db453fab1173f109049ec3, type: 3}
+    volume: 1
+    loopingSound: 0
+  projectileSwoosh:
+  - audioClip: {fileID: 8300000, guid: c8ef7dc708ba456c9964794428b32d4c, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  promotion:
+  - audioClip: {fileID: 8300000, guid: bb89ef3948b74509bdbb32c0098e0fd8, type: 3}
+    volume: 1
+    loopingSound: 0
+  scoreroll:
+  - audioClip: {fileID: 8300000, guid: fe26a6dad9f94ba3bb664fe6c2ad55e4, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  coinroll:
+  - audioClip: {fileID: 8300000, guid: 7c3b7a9c2d9f48409807d6b9c560db2b, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 83ac197ed10b46b8b6bbcf402747204d, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 48c1ccd20707498e850dc41fc1c3507e, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 37c4eb0e772b40b588631444aafd4bca, type: 3}
+    volume: 1
+    loopingSound: 0
+  buttonPress:
+  - audioClip: {fileID: 8300000, guid: 959717fd56eb44bc856fe6251e418693, type: 3}
+    volume: 1
+    loopingSound: 0
+  purchase:
+  - audioClip: {fileID: 8300000, guid: c93ecf975e674a04917f255fa001b618, type: 3}
+    volume: 0.75
+    loopingSound: 0
+  upgradeTank:
+  - audioClip: {fileID: 8300000, guid: 150aed1613504e3994d63244074d0910, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  ownTankDestroyed:
+  - audioClip: {fileID: 8300000, guid: 2992987e5f3a4e3bbd7002a2eb4d1cf8, type: 3}
+    volume: 0.4
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 3a668b405ebb492ba3a7e27a223fef3e, type: 3}
+    volume: 0.6
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: aebd9b5b380648f1a7deebca544c7601, type: 3}
+    volume: 0.6
+    loopingSound: 0
+  death:
+  - audioClip: {fileID: 8300000, guid: 6486ca3335254d99b908004b94819e61, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: f9c615d52ccb49cc93fb68cbc1c8aa8e, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 5c0de725202a4a89a01c79af90b47405, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 2629e0fed9de490fb4e7bbcf3c0e3140, type: 3}
+    volume: 1
+    loopingSound: 0
+  flyingDeath:
+  - audioClip: {fileID: 8300000, guid: 19a3d764340b4bbfa43c87643cd432df, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: c07ed516ea5a428b84c3461b3f51992b, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 1a464b3422a04d9c8ebda61dfe00ee6c, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: c43aea2202ca41bbb4dece33b6c2612c, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 410aa4af82eb4eb18988f9549f4c19b7, type: 3}
+    volume: 1
+    loopingSound: 0
+  bodyThud:
+  - audioClip: {fileID: 8300000, guid: 00d47f50f0fa48d0a7618a5e0ec24ef3, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 7dbe8029e0f9436494808f11849bfb6e, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 3b797886e54845acaeb0ff3700c90b6b, type: 3}
+    volume: 1
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: b4507c0101e14fac8673c8a2c6a00f91, type: 3}
+    volume: 1
+    loopingSound: 0
+  logoHit:
+  - audioClip: {fileID: 8300000, guid: 747e5d87a491450ead91f3c96e10c6b4, type: 3}
+    volume: 0.65
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: 7ed8d1e970df4abd9c02f19d5d6a4f26, type: 3}
+    volume: 0.65
+    loopingSound: 0
+  - audioClip: {fileID: 8300000, guid: fe59901a0df6419081ea4ea3406dbc5b, type: 3}
+    volume: 0.65
+    loopingSound: 0
+  revive:
+  - audioClip: {fileID: 8300000, guid: 01997cc9eefb4f20b9ffb997e7dd5038, type: 3}
+    volume: 1
+    loopingSound: 0
+  allUpgraded:
+  - audioClip: {fileID: 8300000, guid: 03fe08164bcf4b1c9cd0b3f5d192cd01, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  countdown:
+  - audioClip: {fileID: 8300000, guid: 6b2175080c794cbe8111222eda8b3b80, type: 3}
+    volume: 1
+    loopingSound: 0
+  levelUnlock:
+  - audioClip: {fileID: 8300000, guid: 9f16433cc70e4686b997e3e327d0b933, type: 3}
+    volume: 1
+    loopingSound: 0
+  levelStart:
+  - audioClip: {fileID: 8300000, guid: bb89ef3948b74509bdbb32c0098e0fd8, type: 3}
+    volume: 1
+    loopingSound: 0
+  laserAim:
+  - audioClip: {fileID: 8300000, guid: a7f1089b0731484b8849c92464c86be0, type: 3}
+    volume: 0.35
+    loopingSound: 0
+  laserShoot:
+  - audioClip: {fileID: 8300000, guid: e1eabec0175840a193e56707301a2e84, type: 3}
+    volume: 0.35
+    loopingSound: 0
+  upgradeBooster:
+  - audioClip: {fileID: 8300000, guid: aab0aba964c04a7090d78d9a32639cbc, type: 3}
+    volume: 0.8
+    loopingSound: 0
+  mineSpawn:
+  - audioClip: {fileID: 8300000, guid: e893e0a8d53743968293ecacbcaf2f51, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  mineExplode:
+  - audioClip: {fileID: 8300000, guid: dc6d5627c11d44e8a3dbf9bee502b77f, type: 3}
+    volume: 0.25
+    loopingSound: 0
+  mineBeep:
+  - audioClip: {fileID: 8300000, guid: 6654559e6fde4abbb56a6cde0b12d279, type: 3}
+    volume: 1
+    loopingSound: 0
+  mammothFiring:
+  - audioClip: {fileID: 8300000, guid: ed3e678d47ed48f2af7a2096b52cfab4, type: 3}
+    volume: 1
+    loopingSound: 0
+  forceFieldAppear:
+  - audioClip: {fileID: 8300000, guid: d21420aa2b2c455398305a6ee5b45b82, type: 3}
+    volume: 1
+    loopingSound: 0
+  forceFieldAbsorbBig:
+  - audioClip: {fileID: 8300000, guid: 1e007a15f9814dedbe0958e74c75fdff, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  gemCollect:
+  - audioClip: {fileID: 8300000, guid: 05940966f6b54ca5add0d35d49b7f32c, type: 3}
+    volume: 0.48
+    loopingSound: 0
+  chestShake:
+  - audioClip: {fileID: 8300000, guid: aaf7527d41e74d4badb69707d331f220, type: 3}
+    volume: 1
+    loopingSound: 0
+  chestWindup:
+  - audioClip: {fileID: 8300000, guid: 8258c7815c5248edb1cfa6417f4312be, type: 3}
+    volume: 1
+    loopingSound: 0
+  chestOpen:
+  - audioClip: {fileID: 8300000, guid: b4d1332201664cfbbface46419547815, type: 3}
+    volume: 1
+    loopingSound: 0
+  chestOpenChime:
+  - audioClip: {fileID: 8300000, guid: 288101f5d7574368b74643532d0028f7, type: 3}
+    volume: 0.25
+    loopingSound: 0
+  cardReveal:
+  - audioClip: {fileID: 8300000, guid: 3f5b35e893f7477bbd2936793515452f, type: 3}
+    volume: 1
+    loopingSound: 0
+  starCollect:
+  - audioClip: {fileID: 8300000, guid: fed53d8a790d4178860aac9730edb261, type: 3}
+    volume: 1
+    loopingSound: 0
+  starCollected:
+  - audioClip: {fileID: 8300000, guid: 77fec21120df42baac20a204e573d75d, type: 3}
+    volume: 1
+    loopingSound: 0
+  coinDeparture:
+  - audioClip: {fileID: 8300000, guid: b33b3f585a56409797f7e007f6ac6136, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  tankLevelUp:
+  - audioClip: {fileID: 8300000, guid: 8aae1d7bd1854852aecc372f92e9d7ae, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  progressBarTick:
+  - audioClip: {fileID: 8300000, guid: 5ef1b5ec0b7e4b528989e6693b159cbf, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  gemroll:
+  - audioClip: {fileID: 8300000, guid: 0c13ff8dbbba4143a0a675ac119c3473, type: 3}
+    volume: 0.5
+    loopingSound: 0
+  newTankReveal:
+  - audioClip: {fileID: 8300000, guid: 03fe08164bcf4b1c9cd0b3f5d192cd01, type: 3}
+    volume: 1
+    loopingSound: 0
+  spiderShoot:
+  - audioClip: {fileID: 8300000, guid: a2cf2c56345f4c3db73877e7c2c69983, type: 3}
+    volume: 0.513
+    loopingSound: 0
+  spiderWalk:
+  - audioClip: {fileID: 8300000, guid: d5d36bdab70040c48355b63534cb2b2a, type: 3}
+    volume: 0.624
+    loopingSound: 1
+  vipDoubleRoll:
+  - audioClip: {fileID: 8300000, guid: 0f7e1b69d54c47a99d5b25ccef3054a9, type: 3}
+    volume: 1
+    loopingSound: 0
+  vipDoubleSplash:
+  - audioClip: {fileID: 8300000, guid: 9d52d68d5e7c436e980ada8f363b9aef, type: 3}
+    volume: 0.9
+    loopingSound: 0
+  effectsMixerGroup: {fileID: 24300002, guid: d49d605c4ff988e4c8fe91769ff79082, type: 2}
+  engineMixerGroup: {fileID: 24300002, guid: fda370549b89183449d405820c0ebbce, type: 2}
+  uiMixerGroup: {fileID: 24300002, guid: c7c9e56ed22d46f429eeaa4dbef7fe0a, type: 2}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4d6155c63fdb5b80df647c098d71c3, type: 3}
+  m_Name: "AICasual"
+  m_EditorClassIdentifier: 
+  type: 2
+  stationaryCheckTime: 1
+  stationaryDistanceMax: 1
+  targetReachedRadius: 1
+  movementDampingFactor: 0.4
+  preferDistance:
+    min: 10
+    max: 20
+  changeBehaviourByHealth: 1
+  healthChangeBehaviours:
+  - health: 0.5
+    probability: 1
+    behaviour: 0
+  changeBehaviourByTime: 1
+  changeBehaviourTime:
+    min: 4
+    max: 10
+  useBoosterTime:
+    min: 5
+    max: 20
+  useRepairKitAtHealth: 0.5
+  useForceFieldAtHealth: 0.5
+  useAirstrikeDistance:
+    min: 7
+    max: 30

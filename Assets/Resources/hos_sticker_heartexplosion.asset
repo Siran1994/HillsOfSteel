@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9607a054cbc4c3cd1e39c263ca717224, type: 3}
+  m_Name: "hos_sticker_heartexplosion"
+  m_EditorClassIdentifier: 
+  Name: "hos_sticker_heartexplosion"
+  Fps: 15
+  Repetitions: 0
+  Index: 3
+  Sequence: 0
+  Frames:
+  - {fileID: 2800000, guid: dc910bbe1ead4f16954af531f0fd159e, type: 3}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868150b1bd31b520fde3fe7b264d3442, type: 3}
+  m_Name: "StickerPack"
+  m_EditorClassIdentifier: 
+  title: "Hills of Steel"
+  bundleId: "stickers"
+  Signing:
+    AutomaticSigning: 1
+    ProvisioningProfile: 
+    ProvisioningProfileSpecifier: 
+  Icons:
+    appStore: {fileID: 2800000, guid: e2eeda524fd24b768f6ba708852a0276, type: 3}
+    Settings:
+      BackgroundColor: {r: 0.7141897, g: 0.6991782, b: 0.8970588, a: 0}
+      FillPercentage: 100
+      FilterMode: 2
+      ScaleMode: 1
+    Override: 0
+    messagesiPadPro2: {fileID: 0}
+    messagesiPad2: {fileID: 0}
+    messagesiPhone2: {fileID: 0}
+    messagesiPhone3: {fileID: 0}
+    messagesSmall2: {fileID: 0}
+    messagesSmall3: {fileID: 0}
+    messages2: {fileID: 0}
+    messages3: {fileID: 0}
+    iPhoneSettings2: {fileID: 0}
+    iPhoneSettings3: {fileID: 0}
+    iPadSettings2: {fileID: 0}
+  size: 0
+  Stickers:
+  - {fileID: 11400000, guid: df9cec80ee50467b9dd621a1febc63c3, type: 2}
+  - {fileID: 11400000, guid: 7f739e64f09848079b019dcea66770aa, type: 2}
+  - {fileID: 11400000, guid: cdf97e04ebb34a52ab9337c0b590759b, type: 2}
+  - {fileID: 11400000, guid: 7a4880d5aaa84c0f8edd194270da5f01, type: 2}
+  - {fileID: 11400000, guid: a590d2e2779c42c49e8dcbcbf0fd5a74, type: 2}
+  - {fileID: 11400000, guid: e53fe5b9db6143529128499b1b139d39, type: 2}
+  - {fileID: 11400000, guid: 2ae95ecf94dc476f8502236a756ac845, type: 2}
+  - {fileID: 11400000, guid: b6511927fa574bd3b7f5abf161768af0, type: 2}
+  - {fileID: 11400000, guid: 0eacd2daaaa240d396986717f9a0e659, type: 2}
+  - {fileID: 11400000, guid: 76ed94cd93d04c91ba50bcf66c930d8e, type: 2}
+  - {fileID: 11400000, guid: 848e80b4723d4310a3ca81ec02a46c80, type: 2}
+  - {fileID: 11400000, guid: 66d895c4eeb84f099582367fca471421, type: 2}
+  - {fileID: 11400000, guid: c35e7201110e4ba29ff4787bcb0dd567, type: 2}

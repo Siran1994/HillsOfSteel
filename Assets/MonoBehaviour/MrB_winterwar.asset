@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -667331979, guid: a3c13301695d9572ab8f18273e395d1c, type: 3}
+  m_Name: "MrB_winterwar"
+  m_EditorClassIdentifier: 
+  hashCode: -1969335691
+  material: {fileID: 2100000, guid: 867d9a4e38e4410ea4359af05fa74d43, type: 2}
+  materialHashCode: -795673250
+  fontAssetType: 1
+  m_fontInfo:
+    Name: "Mister Belvedere"
+    PointSize: 255
+    Scale: 1
+    CharacterCount: 15
+    LineHeight: 255
+    Baseline: 0
+    Ascender: 211.375
+    CapHeight: 158.8125
+    Descender: -43.6875
+    CenterLine: 0
+    SuperscriptOffset: 211.375
+    SubscriptOffset: -32.64706
+    SubSize: 0.5
+    Underline: -32.64706
+    UnderlineThickness: 6.617648
+    strikethrough: 60.97727
+    strikethroughThickness: 6.617648
+    TabWidth: 882.5
+    Padding: 5
+    AtlasWidth: 512
+    AtlasHeight: 512
+  atlas: {fileID: 2800000, guid: fa8873ee875e4e3b9f1185ed09cbb756, type: 3}
+  m_glyphInfoList:
+  - id: 32
+    x: 6
+    y: 517
+    width: 88.25
+    height: 255.0625
+    xOffset: 0
+    yOffset: 211.375
+    xAdvance: 88.25
+    scale: 1
+  - id: 44
+    x: 465
+    y: 257
+    width: 39.9375
+    height: 78.9375
+    xOffset: 4.25
+    yOffset: 39.6875
+    xAdvance: 49.625
+    scale: 1
+  - id: 65
+    x: 6
+    y: 7
+    width: 115.5625
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 125.3125
+    scale: 1
+  - id: 69
+    x: 368
+    y: 177
+    width: 85.8125
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 95.5
+    scale: 1
+  - id: 71
+    x: 244
+    y: 7
+    width: 99.5
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 109.1875
+    scale: 1
+  - id: 72
+    x: 318
+    y: 347
+    width: 97.5
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 107.1875
+    scale: 1
+  - id: 73
+    x: 461
+    y: 7
+    width: 41.5
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 51.1875
+    scale: 1
+  - id: 75
+    x: 133
+    y: 177
+    width: 113.375
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 123.0625
+    scale: 1
+  - id: 76
+    x: 427
+    y: 347
+    width: 77.4375
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 87.125
+    scale: 1
+  - id: 78
+    x: 6
+    y: 177
+    width: 115.8125
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 125.5
+    scale: 1
+  - id: 82
+    x: 133
+    y: 7
+    width: 99.0625
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 109
+    scale: 1
+  - id: 84
+    x: 355
+    y: 7
+    width: 94.875
+    height: 158.8125
+    xOffset: 2.0625
+    yOffset: 158.8125
+    xAdvance: 100.125
+    scale: 1
+  - id: 85
+    x: 258
+    y: 177
+    width: 98.375
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 108.0625
+    scale: 1
+  - id: 86
+    x: 194
+    y: 347
+    width: 112.5
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 122.1875
+    scale: 1
+  - id: 87
+    x: 6
+    y: 347
+    width: 176.6875
+    height: 158.8125
+    xOffset: 4.25
+    yOffset: 158.8125
+    xAdvance: 186.375
+    scale: 1
+  m_kerningInfo:
+    kerningPairs: []
+  m_kerningPair:
+    AscII_Left: 0
+    AscII_Right: 0
+    XadvanceOffset: 0
+  fallbackFontAssets: []
+  fontCreationSettings:
+    fontSourcePath: 
+    fontSizingMode: 0
+    fontSize: 0
+    fontPadding: 0
+    fontPackingMode: 0
+    fontAtlasWidth: 0
+    fontAtlasHeight: 0
+    fontCharacterSet: 0
+    fontStyle: 0
+    fontStlyeModifier: 0
+    fontRenderMode: 0
+    fontKerning: 0
+  fontWeights:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10

@@ -1,0 +1,6233 @@
+fileFormatVersion: 2
+guid: 12a4e44ca101415faab093a6f087e702
+timeCreated: 1571235180
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300014: countryflags_guineabissau
+    21300016: countryflags_latvia
+    21300018: countryflags_poland
+    21300020: countryflags_solomonislands
+    21300022: countryflags_easttimor
+    21300024: countryflags_samoa
+    21300026: countryflags_malawi
+    21300028: countryflags_niger
+    21300030: countryflags_monaco
+    21300032: countryflags_saintkitts
+    21300034: countryflags_canada
+    21300036: countryflags_mexico
+    21300038: countryflags_southkorea
+    21300040: countryflags_cyprus
+    21300042: countryflags_kyrgystan
+    21300044: countryflags_saintlucia
+    21300046: countryflags_artsach
+    21300048: countryflags_guyana
+    21300050: countryflags_turkmenistan
+    21300052: countryflags_nigeria
+    21300054: countryflags_qatar
+    21300056: countryflags_trinidadtobago
+    21300058: countryflags_panama
+    21300060: countryflags_mozambique
+    21300062: countryflags_spain
+    21300010: countryflags_philippines
+    21300064: countryflags_seychelles
+    21300066: countryflags_abkhazia
+    21300068: countryflags_kuwait
+    21300070: countryflags_armenia
+    21300072: countryflags_botswana
+    21300012: countryflags_lesotho
+    21300074: countryflags_srilanka
+    21300076: countryflags_fyrom
+    21300078: countryflags_eu
+    21300080: countryflags_albania
+    21300082: countryflags_turkey
+    21300084: countryflags_ireland
+    21300004: countryflags_afghanistan
+    21300002: countryflags_algeria
+    21300086: countryflags_morocco
+    21300088: countryflags_burkinafaso
+    21300090: countryflags_austria
+    21300092: countryflags_elsalvador
+    21300094: countryflags_indonesia
+    21300096: countryflags_lebanon
+    21300098: countryflags_slovakia
+    21300100: countryflags_uae
+    21300102: countryflags_sanmarino
+    21300104: countryflags_peru
+    21300106: countryflags_eritrea
+    21300108: countryflags_senegal
+    21300110: countryflags_malaysia
+    21300112: countryflags_thailand
+    21300114: countryflags_israel
+    21300116: countryflags_zimbabwe
+    21300118: countryflags_palestine
+    21300120: countryflags_bulgaria
+    21300122: countryflags_republicofcongo
+    21300124: countryflags_azerbaijan
+    21300126: countryflags_cambodia
+    21300128: countryflags_madagascar
+    21300130: countryflags_ecuador
+    21300132: countryflags_tonga
+    21300134: countryflags_kiribati
+    21300136: countryflags_hungary
+    21300138: countryflags_china
+    21300140: countryflags_northkorea
+    21300142: countryflags_netherlands
+    21300144: countryflags_kosovo
+    21300146: countryflags_niue
+    21300148: countryflags_bhutan
+    21300150: countryflags_newzealand
+    21300152: countryflags_fiji
+    21300154: countryflags_dominica
+    21300156: countryflags_grenada
+    21300158: countryflags_brazil
+    21300160: countryflags_serbia
+    21300162: countryflags_czechrepublic
+    21300164: countryflags_mongolia
+    21300166: countryflags_northerncyprus
+    21300168: countryflags_guatemala
+    21300170: countryflags_switzerland
+    21300008: countryflags_worldcitizen
+    21300172: countryflags_togo
+    21300174: countryflags_chile
+    21300176: countryflags_swaziland
+    21300178: countryflags_maldives
+    21300180: countryflags_cookislands
+    21300182: countryflags_somalia
+    21300184: countryflags_ivorycoast
+    21300186: countryflags_andorra
+    21300188: countryflags_belgium
+    21300190: countryflags_benin
+    21300192: countryflags_gambia
+    21300194: countryflags_malta
+    21300196: countryflags_djibouti
+    21300198: countryflags_chad
+    21300200: countryflags_unitedstates
+    21300202: countryflags_iran
+    21300204: countryflags_vietnam
+    21300206: countryflags_bosnia
+    21300208: countryflags_myanmar
+    21300210: countryflags_suriname
+    21300212: countryflags_gabon
+    21300214: countryflags_laos
+    21300216: countryflags_papuanewguinea
+    21300218: countryflags_rwanda
+    21300220: countryflags_burundi
+    21300222: countryflags_kazakhstan
+    21300224: countryflags_singapore
+    21300226: countryflags_italy
+    21300228: countryflags_brunei
+    21300230: countryflags_paraguay
+    21300232: countryflags_finland
+    21300234: countryflags_taiwan
+    21300236: countryflags_micronesia
+    21300238: countryflags_tuvalu
+    21300240: countryflags_australia
+    21300242: countryflags_uzbekistan
+    21300244: countryflags_portugal
+    21300246: countryflags_democraticrepublicofcongo
+    21300248: countryflags_belize
+    21300250: countryflags_ukraine
+    21300252: countryflags_france
+    21300254: countryflags_sierraleone
+    21300256: countryflags_bahamas
+    21300258: countryflags_namibia
+    21300260: countryflags_egypt
+    21300262: countryflags_iraq
+    21300264: countryflags_iceland
+    21300266: countryflags_tunisia
+    21300268: countryflags_bahrain
+    21300270: countryflags_capeverde
+    21300000: countryflags_angola
+    21300272: countryflags_liberia
+    21300274: countryflags_zambia
+    21300276: countryflags_ethiopia
+    21300278: countryflags_jamaica
+    21300280: countryflags_syria
+    21300282: countryflags_germany
+    21300284: countryflags_russia
+    21300286: countryflags_nauru
+    21300288: countryflags_moldova
+    21300290: countryflags_greece
+    21300292: countryflags_uruguay
+    21300294: countryflags_belarus
+    21300296: countryflags_honduras
+    21300298: countryflags_vatican
+    21300300: countryflags_palau
+    21300302: countryflags_haiti
+    21300304: countryflags_montenegro
+    21300306: countryflags_luxembourg
+    21300308: countryflags_yemen
+    21300310: countryflags_jordan
+    21300312: countryflags_uganda
+    21300314: countryflags_transnistria
+    21300316: countryflags_saudiarabia
+    21300318: countryflags_argentina
+    21300320: countryflags_costarica
+    21300322: countryflags_slovenia
+    21300324: countryflags_southossetia
+    21300326: countryflags_comoros
+    21300328: countryflags_mauritania
+    21300006: countryflags_norway
+    21300330: countryflags_sahrawi
+    21300332: countryflags_dominicanrepublic
+    21300334: countryflags_tajikistan
+    21300336: countryflags_croatia
+    21300338: countryflags_cuba
+    21300340: countryflags_venezuela
+    21300342: countryflags_centralafricanrepublic
+    21300344: countryflags_estonia
+    21300346: countryflags_uk
+    21300348: countryflags_lithuania
+    21300350: countryflags_pakistan
+    21300352: countryflags_bolivia
+    21300354: countryflags_japan
+    21300356: countryflags_bangladesh
+    21300358: countryflags_somaliland
+    21300360: countryflags_india
+    21300362: countryflags_mali
+    21300364: countryflags_marshallislands
+    21300366: countryflags_antigua
+    21300368: countryflags_saintvincent
+    21300370: countryflags_southafrica
+    21300372: countryflags_vanuatu
+    21300374: countryflags_ghana
+    21300376: countryflags_nicaragua
+    21300378: countryflags_sudan
+    21300380: countryflags_nepal
+    21300382: countryflags_guinea
+    21300384: countryflags_mauritius
+    21300386: countryflags_georgia
+    21300388: countryflags_sweden
+    21300390: countryflags_liechtenstein
+    21300392: countryflags_equatorialguinea
+    21300394: countryflags_denmark
+    21300396: countryflags_kenya
+    21300398: countryflags_southsudan
+    21300400: countryflags_tanzania
+    21300402: countryflags_colombia
+    21300404: countryflags_cameroon
+    21300406: countryflags_libya
+    21300408: countryflags_romania
+    21300410: countryflags_saotome
+    21300412: countryflags_oman
+    21300414: countryflags_barbados
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 34
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 34
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: countryflags_guineabissau
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_latvia
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 80, y: -57.5}
+      - - {x: 80, y: 57.5}
+        - {x: 80, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79.99999, y: -57.5}
+        - {x: 79.99999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_poland
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_solomonislands
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_easttimor
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_samoa
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_malawi
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_niger
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_monaco
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_saintkitts
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_canada
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_mexico
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_southkorea
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_cyprus
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_kyrgystan
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_saintlucia
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_artsach
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_guyana
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_turkmenistan
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_nigeria
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_qatar
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_trinidadtobago
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_panama
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_mozambique
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_spain
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_philippines
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_seychelles
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_abkhazia
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_kuwait
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_armenia
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_botswana
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_lesotho
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_srilanka
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_fyrom
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.75}
+        - {x: -79.5, y: 58.25}
+        - {x: 79.5, y: -57.75}
+      - - {x: 79.5, y: 58.25}
+        - {x: 79.5, y: -57.75}
+        - {x: -79.5, y: 58.25}
+      physicsShape:      
+      - - {x: -79.5, y: 58.25}
+        - {x: -79.5, y: -57.75}
+        - {x: 79.49999, y: -57.75}
+        - {x: 79.49999, y: 58.25}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_eu
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1319
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_albania
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_turkey
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_ireland
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 80, y: -57.5}
+      - - {x: 80, y: 58.5}
+        - {x: 80, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79.99999, y: -57.5}
+        - {x: 79.99999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_afghanistan
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_algeria
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_morocco
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_burkinafaso
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_austria
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_elsalvador
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_indonesia
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_lebanon
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_slovakia
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_uae
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_sanmarino
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_peru
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_eritrea
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_senegal
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_malaysia
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_thailand
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_israel
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_zimbabwe
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_palestine
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1319
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_bulgaria
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_republicofcongo
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_azerbaijan
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_cambodia
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_madagascar
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_ecuador
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_tonga
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_kiribati
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_hungary
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_china
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_northkorea
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_netherlands
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_kosovo
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_niue
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_bhutan
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_newzealand
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.25}
+        - {x: -79.5, y: 58.75}
+        - {x: 79.5, y: -57.25}
+      - - {x: 79.5, y: 58.75}
+        - {x: 79.5, y: -57.25}
+        - {x: -79.5, y: 58.75}
+      physicsShape:      
+      - - {x: -79.5, y: 58.75}
+        - {x: -79.5, y: -57.25}
+        - {x: 79.49999, y: -57.25}
+        - {x: 79.49999, y: 58.75}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_fiji
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.25, y: -58}
+        - {x: -79.25, y: 57}
+        - {x: 79.75, y: -58}
+      - - {x: 79.75, y: 57}
+        - {x: 79.75, y: -58}
+        - {x: -79.25, y: 57}
+      physicsShape:      
+      - - {x: -79.24999, y: 57}
+        - {x: -79.24999, y: -58}
+        - {x: 79.74999, y: -58}
+        - {x: 79.74999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_dominica
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_grenada
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_brazil
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_serbia
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_czechrepublic
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_mongolia
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_northerncyprus
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_guatemala
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_switzerland
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_worldcitizen
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1319
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_togo
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.75}
+        - {x: -79.5, y: 58.25}
+        - {x: 78.5, y: -57.75}
+      - - {x: 78.5, y: 58.25}
+        - {x: 78.5, y: -57.75}
+        - {x: -79.5, y: 58.25}
+      physicsShape:      
+      - - {x: -79.5, y: 58.25}
+        - {x: -79.5, y: -57.75}
+        - {x: 78.5, y: -57.75}
+        - {x: 78.5, y: 58.25}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_chile
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_swaziland
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_maldives
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_cookislands
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_somalia
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_ivorycoast
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_andorra
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_belgium
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_benin
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_gambia
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_malta
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_djibouti
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_chad
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_unitedstates
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58.25}
+        - {x: -79, y: 57.75}
+        - {x: 80, y: -58.25}
+      - - {x: 80, y: 57.75}
+        - {x: 80, y: -58.25}
+        - {x: -79, y: 57.75}
+      physicsShape:      
+      - - {x: -79, y: 57.75}
+        - {x: -79, y: -58.25}
+        - {x: 79.99999, y: -58.25}
+        - {x: 79.99999, y: 57.75}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_iran
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 80, y: -57.5}
+      - - {x: 80, y: 57.5}
+        - {x: 80, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79.99999, y: -57.5}
+        - {x: 79.99999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_vietnam
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_bosnia
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_myanmar
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_suriname
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_gabon
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_laos
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_papuanewguinea
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_rwanda
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_burundi
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_kazakhstan
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 80, y: -57.5}
+      - - {x: 80, y: 58.5}
+        - {x: 80, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79.99999, y: -57.5}
+        - {x: 79.99999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_singapore
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_italy
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_brunei
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_paraguay
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_finland
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_taiwan
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1319
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 80, y: -57.5}
+      - - {x: 80, y: 57.5}
+        - {x: 80, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79.99999, y: -57.5}
+        - {x: 79.99999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_micronesia
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_tuvalu
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_australia
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_uzbekistan
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_portugal
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_democraticrepublicofcongo
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_belize
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_ukraine
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_france
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_sierraleone
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_bahamas
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_namibia
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_egypt
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_iraq
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_iceland
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 80, y: -57.5}
+      - - {x: 80, y: 58.5}
+        - {x: 80, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79.99999, y: -57.5}
+        - {x: 79.99999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_tunisia
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_bahrain
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_capeverde
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_angola
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_liberia
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_zambia
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_ethiopia
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_jamaica
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 80, y: -57.5}
+      - - {x: 80, y: 58.5}
+        - {x: 80, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79.99999, y: -57.5}
+        - {x: 79.99999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_syria
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_germany
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_russia
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_nauru
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_moldova
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_greece
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_uruguay
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58.25}
+        - {x: -79, y: 57.75}
+        - {x: 79, y: -58.25}
+      - - {x: 79, y: 57.75}
+        - {x: 79, y: -58.25}
+        - {x: -79, y: 57.75}
+      physicsShape:      
+      - - {x: -79, y: 57.75}
+        - {x: -79, y: -58.25}
+        - {x: 79, y: -58.25}
+        - {x: 79, y: 57.75}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_belarus
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_honduras
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_vatican
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_palau
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_haiti
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_montenegro
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_luxembourg
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_yemen
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_jordan
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_uganda
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_transnistria
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1319
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_saudiarabia
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_argentina
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_costarica
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.25}
+        - {x: -79.5, y: 58.75}
+        - {x: 79.5, y: -57.25}
+      - - {x: 79.5, y: 58.75}
+        - {x: 79.5, y: -57.25}
+        - {x: -79.5, y: 58.75}
+      physicsShape:      
+      - - {x: -79.5, y: 58.75}
+        - {x: -79.5, y: -57.25}
+        - {x: 79.49999, y: -57.25}
+        - {x: 79.49999, y: 58.75}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_slovenia
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_southossetia
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1319
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_comoros
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_mauritania
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_norway
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 58}
+        - {x: 79, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_sahrawi
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1319
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 80, y: -57.5}
+      - - {x: 80, y: 57.5}
+        - {x: 80, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79.99999, y: -57.5}
+        - {x: 79.99999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_dominicanrepublic
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_tajikistan
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_croatia
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_cuba
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_venezuela
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_centralafricanrepublic
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.25}
+        - {x: -79.5, y: 58.75}
+        - {x: 78.5, y: -57.25}
+      - - {x: 78.5, y: 58.75}
+        - {x: 78.5, y: -57.25}
+        - {x: -79.5, y: 58.75}
+      physicsShape:      
+      - - {x: -79.5, y: 58.75}
+        - {x: -79.5, y: -57.25}
+        - {x: 78.5, y: -57.25}
+        - {x: 78.5, y: 58.75}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_estonia
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_uk
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_lithuania
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_pakistan
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_bolivia
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_japan
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_bangladesh
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_somaliland
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1319
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_india
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_mali
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_marshallislands
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_antigua
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_saintvincent
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_southafrica
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_vanuatu
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1210
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_ghana
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_nicaragua
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_sudan
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_nepal
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 78.5, y: -57.5}
+        - {x: 78.5, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_guinea
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_mauritius
+      rect:
+        serializedVersion: 2
+        x: 812.5
+        y: 1329
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_georgia
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_sweden
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_liechtenstein
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 57.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_equatorialguinea
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 967.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 57}
+        - {x: 80, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_denmark
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_kenya
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 58.5}
+        - {x: 79, y: -57.5}
+      - - {x: 79, y: 58.5}
+        - {x: 79, y: -57.5}
+        - {x: -79, y: 58.5}
+      physicsShape:      
+      - - {x: -79, y: 58.5}
+        - {x: -79, y: -57.5}
+        - {x: 79, y: -57.5}
+        - {x: 79, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_southsudan
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_tanzania
+      rect:
+        serializedVersion: 2
+        x: 1473.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 57.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 57.5}
+      physicsShape:      
+      - - {x: -79.5, y: 57.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_colombia
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_cameroon
+      rect:
+        serializedVersion: 2
+        x: 972.5
+        y: 1448
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+      - - {x: 79.5, y: 58.5}
+        - {x: 79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      - - {x: -79.5, y: 58.5}
+        - {x: -79.5, y: -57.5}
+        - {x: 79.49999, y: -57.5}
+        - {x: 79.49999, y: 58.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_libya
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1914
+        width: 158
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -57.5}
+        - {x: -79, y: 57.5}
+        - {x: 80, y: -57.5}
+      - - {x: 80, y: 57.5}
+        - {x: 80, y: -57.5}
+        - {x: -79, y: 57.5}
+      physicsShape:      
+      - - {x: -79, y: 57.5}
+        - {x: -79, y: -57.5}
+        - {x: 79.99999, y: -57.5}
+        - {x: 79.99999, y: 57.5}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_romania
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_saotome
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 57}
+        - {x: 79, y: -58}
+      - - {x: 79, y: 57}
+        - {x: 79, y: -58}
+        - {x: -79, y: 57}
+      physicsShape:      
+      - - {x: -79, y: 57}
+        - {x: -79, y: -58}
+        - {x: 79, y: -58}
+        - {x: 79, y: 57}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_oman
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 484.5
+        width: 158
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: -58}
+        - {x: -79, y: 58}
+        - {x: 80, y: -58}
+      - - {x: 80, y: 58}
+        - {x: 80, y: -58}
+        - {x: -79, y: 58}
+      physicsShape:      
+      - - {x: -79, y: 58}
+        - {x: -79, y: -58}
+        - {x: 79.99999, y: -58}
+        - {x: 79.99999, y: 58}
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: countryflags_barbados
+      rect:
+        serializedVersion: 2
+        x: 1637.5
+        y: 716
+        width: 159
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+      - - {x: 78.5, y: 58.5}
+        - {x: 78.5, y: -57.5}
+        - {x: -79.5, y: 58.5}
+      physicsShape:      
+      tessellationDetail: 0
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

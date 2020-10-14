@@ -1,0 +1,515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e20e4147a4247412f2c01b1baf3811, type: 3}
+  m_Name: "FlagData"
+  m_EditorClassIdentifier: 
+  unknownFlag: {fileID: 21300008, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  flags:
+  - name: "Afghanistan"
+    sprite: {fileID: 21300004, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "\u00C5land Islands"
+    sprite: {fileID: 21300232, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Albania"
+    sprite: {fileID: 21300080, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Algeria"
+    sprite: {fileID: 21300002, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "American Samoa"
+    sprite: {fileID: 21300024, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Andorra"
+    sprite: {fileID: 21300186, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Angola"
+    sprite: {fileID: 21300000, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Anguilla"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Antarctica"
+    sprite: {fileID: 0}
+  - name: "Antigua and Barbuda"
+    sprite: {fileID: 21300366, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Argentina"
+    sprite: {fileID: 21300318, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Armenia"
+    sprite: {fileID: 21300070, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Aruba"
+    sprite: {fileID: 21300142, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Australia"
+    sprite: {fileID: 21300240, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Austria"
+    sprite: {fileID: 21300090, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Azerbaijan"
+    sprite: {fileID: 21300124, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bahamas"
+    sprite: {fileID: 21300256, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bahrain"
+    sprite: {fileID: 21300268, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bangladesh"
+    sprite: {fileID: 21300356, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Barbados"
+    sprite: {fileID: 21300414, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Belarus"
+    sprite: {fileID: 21300294, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Belgium"
+    sprite: {fileID: 21300188, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Belize"
+    sprite: {fileID: 21300248, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Benin"
+    sprite: {fileID: 21300190, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bermuda"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bhutan"
+    sprite: {fileID: 21300148, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bolivia (Plurinational State of)"
+    sprite: {fileID: 21300352, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bonaire, Sint Eustatius and Saba"
+    sprite: {fileID: 21300078, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bosnia and Herzegovina"
+    sprite: {fileID: 21300206, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Botswana"
+    sprite: {fileID: 21300072, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bouvet Island"
+    sprite: {fileID: 21300006, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Brazil"
+    sprite: {fileID: 21300158, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "British Indian Ocean Territory"
+    sprite: {fileID: 21300360, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "United States Minor Outlying Islands"
+    sprite: {fileID: 21300200, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Virgin Islands (British)"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Virgin Islands (U.S.)"
+    sprite: {fileID: 21300200, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Brunei Darussalam"
+    sprite: {fileID: 21300228, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Bulgaria"
+    sprite: {fileID: 21300120, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Burkina Faso"
+    sprite: {fileID: 21300088, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Burundi"
+    sprite: {fileID: 21300220, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Cambodia"
+    sprite: {fileID: 21300126, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Cameroon"
+    sprite: {fileID: 21300404, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Canada"
+    sprite: {fileID: 21300034, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Cabo Verde"
+    sprite: {fileID: 21300270, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Cayman Islands"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Central African Republic"
+    sprite: {fileID: 21300342, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Chad"
+    sprite: {fileID: 21300198, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Chile"
+    sprite: {fileID: 21300174, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "China"
+    sprite: {fileID: 21300138, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Christmas Island"
+    sprite: {fileID: 21300240, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Cocos (Keeling) Islands"
+    sprite: {fileID: 21300240, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Colombia"
+    sprite: {fileID: 21300402, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Comoros"
+    sprite: {fileID: 21300326, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Congo"
+    sprite: {fileID: 21300122, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Congo (Democratic Republic of the)"
+    sprite: {fileID: 21300246, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Cook Islands"
+    sprite: {fileID: 21300180, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Costa Rica"
+    sprite: {fileID: 21300320, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Croatia"
+    sprite: {fileID: 21300336, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Cuba"
+    sprite: {fileID: 21300338, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Cura\u00E7ao"
+    sprite: {fileID: 21300142, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Cyprus"
+    sprite: {fileID: 21300040, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Czech Republic"
+    sprite: {fileID: 21300162, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Denmark"
+    sprite: {fileID: 21300394, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Djibouti"
+    sprite: {fileID: 21300196, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Dominica"
+    sprite: {fileID: 21300154, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Dominican Republic"
+    sprite: {fileID: 21300332, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Ecuador"
+    sprite: {fileID: 21300130, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Egypt"
+    sprite: {fileID: 21300260, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "El Salvador"
+    sprite: {fileID: 21300092, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Equatorial Guinea"
+    sprite: {fileID: 21300392, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Eritrea"
+    sprite: {fileID: 21300106, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Estonia"
+    sprite: {fileID: 21300344, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Ethiopia"
+    sprite: {fileID: 21300276, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Falkland Islands (Malvinas)"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Faroe Islands"
+    sprite: {fileID: 21300394, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Fiji"
+    sprite: {fileID: 21300152, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Finland"
+    sprite: {fileID: 21300232, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "France"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "French Guiana"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "French Polynesia"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "French Southern Territories"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Gabon"
+    sprite: {fileID: 21300212, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Gambia"
+    sprite: {fileID: 21300192, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Georgia"
+    sprite: {fileID: 21300386, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Germany"
+    sprite: {fileID: 21300282, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Ghana"
+    sprite: {fileID: 21300374, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Gibraltar"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Greece"
+    sprite: {fileID: 21300290, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Greenland"
+    sprite: {fileID: 21300394, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Grenada"
+    sprite: {fileID: 21300156, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Guadeloupe"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Guam"
+    sprite: {fileID: 21300200, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Guatemala"
+    sprite: {fileID: 21300168, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Guernsey"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Guinea"
+    sprite: {fileID: 21300382, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Guinea-Bissau"
+    sprite: {fileID: 21300014, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Guyana"
+    sprite: {fileID: 21300048, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Haiti"
+    sprite: {fileID: 21300302, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Heard Island and McDonald Islands"
+    sprite: {fileID: 21300240, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Holy See"
+    sprite: {fileID: 21300298, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Honduras"
+    sprite: {fileID: 21300296, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Hong Kong"
+    sprite: {fileID: 21300138, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Hungary"
+    sprite: {fileID: 21300136, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Iceland"
+    sprite: {fileID: 21300264, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "India"
+    sprite: {fileID: 21300360, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Indonesia"
+    sprite: {fileID: 21300094, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "C\u00F4te d'Ivoire"
+    sprite: {fileID: 21300184, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Iran (Islamic Republic of)"
+    sprite: {fileID: 21300202, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Iraq"
+    sprite: {fileID: 21300262, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Ireland"
+    sprite: {fileID: 21300084, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Isle of Man"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Israel"
+    sprite: {fileID: 21300114, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Italy"
+    sprite: {fileID: 21300226, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Jamaica"
+    sprite: {fileID: 21300278, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Japan"
+    sprite: {fileID: 21300354, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Jersey"
+    sprite: {fileID: 0}
+  - name: "Jordan"
+    sprite: {fileID: 21300310, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Kazakhstan"
+    sprite: {fileID: 21300222, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Kenya"
+    sprite: {fileID: 21300396, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Kiribati"
+    sprite: {fileID: 21300134, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Kuwait"
+    sprite: {fileID: 21300068, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Kyrgyzstan"
+    sprite: {fileID: 21300042, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Lao People's Democratic Republic"
+    sprite: {fileID: 21300214, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Latvia"
+    sprite: {fileID: 21300016, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Lebanon"
+    sprite: {fileID: 21300096, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Lesotho"
+    sprite: {fileID: 21300012, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Liberia"
+    sprite: {fileID: 21300272, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Libya"
+    sprite: {fileID: 21300406, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Liechtenstein"
+    sprite: {fileID: 21300390, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Lithuania"
+    sprite: {fileID: 21300348, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Luxembourg"
+    sprite: {fileID: 21300306, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Macao"
+    sprite: {fileID: 21300138, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Macedonia (the former Yugoslav Republic of)"
+    sprite: {fileID: 0}
+  - name: "Madagascar"
+    sprite: {fileID: 21300128, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Malawi"
+    sprite: {fileID: 21300026, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Malaysia"
+    sprite: {fileID: 21300110, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Maldives"
+    sprite: {fileID: 21300178, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Mali"
+    sprite: {fileID: 21300362, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Malta"
+    sprite: {fileID: 21300194, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Marshall Islands"
+    sprite: {fileID: 21300364, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Martinique"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Mauritania"
+    sprite: {fileID: 21300328, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Mauritius"
+    sprite: {fileID: 21300384, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Mayotte"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Mexico"
+    sprite: {fileID: 21300036, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Micronesia (Federated States of)"
+    sprite: {fileID: 21300236, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Moldova (Republic of)"
+    sprite: {fileID: 21300288, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Monaco"
+    sprite: {fileID: 21300030, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Mongolia"
+    sprite: {fileID: 21300164, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Montenegro"
+    sprite: {fileID: 21300304, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Montserrat"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Morocco"
+    sprite: {fileID: 21300086, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Mozambique"
+    sprite: {fileID: 21300060, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Myanmar"
+    sprite: {fileID: 21300208, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Namibia"
+    sprite: {fileID: 21300258, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Nauru"
+    sprite: {fileID: 21300286, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Nepal"
+    sprite: {fileID: 21300380, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Netherlands"
+    sprite: {fileID: 21300142, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "New Caledonia"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "New Zealand"
+    sprite: {fileID: 21300150, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Nicaragua"
+    sprite: {fileID: 21300376, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Niger"
+    sprite: {fileID: 21300028, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Nigeria"
+    sprite: {fileID: 21300028, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Niue"
+    sprite: {fileID: 21300146, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Norfolk Island"
+    sprite: {fileID: 21300240, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Korea (Democratic People's Republic of)"
+    sprite: {fileID: 21300140, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Northern Mariana Islands"
+    sprite: {fileID: 21300200, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Norway"
+    sprite: {fileID: 21300006, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Oman"
+    sprite: {fileID: 21300412, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Pakistan"
+    sprite: {fileID: 21300350, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Palau"
+    sprite: {fileID: 21300300, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Palestine, State of"
+    sprite: {fileID: 21300118, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Panama"
+    sprite: {fileID: 21300058, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Papua New Guinea"
+    sprite: {fileID: 21300382, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Paraguay"
+    sprite: {fileID: 21300230, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Peru"
+    sprite: {fileID: 21300104, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Philippines"
+    sprite: {fileID: 21300010, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Pitcairn"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Poland"
+    sprite: {fileID: 21300018, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Portugal"
+    sprite: {fileID: 21300244, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Puerto Rico"
+    sprite: {fileID: 21300200, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Qatar"
+    sprite: {fileID: 21300054, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Republic of Kosovo"
+    sprite: {fileID: 21300144, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "R\u00E9union"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Romania"
+    sprite: {fileID: 21300412, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Russian Federation"
+    sprite: {fileID: 21300284, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Rwanda"
+    sprite: {fileID: 21300218, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Saint Barth\u00E9lemy"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Saint Helena, Ascension and Tristan da Cunha"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Saint Kitts and Nevis"
+    sprite: {fileID: 21300032, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Saint Lucia"
+    sprite: {fileID: 21300044, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Saint Martin (French part)"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Saint Pierre and Miquelon"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Saint Vincent and the Grenadines"
+    sprite: {fileID: 0}
+  - name: "Samoa"
+    sprite: {fileID: 21300024, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "San Marino"
+    sprite: {fileID: 21300102, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Sao Tome and Principe"
+    sprite: {fileID: 21300410, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Saudi Arabia"
+    sprite: {fileID: 21300316, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Senegal"
+    sprite: {fileID: 21300108, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Serbia"
+    sprite: {fileID: 21300160, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Seychelles"
+    sprite: {fileID: 21300064, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Sierra Leone"
+    sprite: {fileID: 21300254, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Singapore"
+    sprite: {fileID: 21300224, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Sint Maarten (Dutch part)"
+    sprite: {fileID: 21300394, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Slovakia"
+    sprite: {fileID: 21300098, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Slovenia"
+    sprite: {fileID: 21300322, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Solomon Islands"
+    sprite: {fileID: 21300020, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Somalia"
+    sprite: {fileID: 21300362, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "South Africa"
+    sprite: {fileID: 21300370, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "South Georgia and the South Sandwich Islands"
+    sprite: {fileID: 21300386, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Korea (Republic of)"
+    sprite: {fileID: 21300038, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "South Sudan"
+    sprite: {fileID: 21300378, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Spain"
+    sprite: {fileID: 21300062, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Sri Lanka"
+    sprite: {fileID: 21300074, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Sudan"
+    sprite: {fileID: 21300378, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Suriname"
+    sprite: {fileID: 21300210, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Svalbard and Jan Mayen"
+    sprite: {fileID: 21300006, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Swaziland"
+    sprite: {fileID: 21300176, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Sweden"
+    sprite: {fileID: 21300388, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Switzerland"
+    sprite: {fileID: 21300170, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Syrian Arab Republic"
+    sprite: {fileID: 21300280, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Taiwan"
+    sprite: {fileID: 21300234, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Tajikistan"
+    sprite: {fileID: 21300334, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Tanzania, United Republic of"
+    sprite: {fileID: 21300400, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Thailand"
+    sprite: {fileID: 21300112, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Timor-Leste"
+    sprite: {fileID: 21300022, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Togo"
+    sprite: {fileID: 21300172, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Tokelau"
+    sprite: {fileID: 21300150, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Tonga"
+    sprite: {fileID: 21300132, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Trinidad and Tobago"
+    sprite: {fileID: 21300056, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Tunisia"
+    sprite: {fileID: 21300266, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Turkey"
+    sprite: {fileID: 21300082, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Turkmenistan"
+    sprite: {fileID: 21300050, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Turks and Caicos Islands"
+    sprite: {fileID: 21300346, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Tuvalu"
+    sprite: {fileID: 21300238, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Uganda"
+    sprite: {fileID: 21300312, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Ukraine"
+    sprite: {fileID: 21300250, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "United Arab Emirates"
+    sprite: {fileID: 21300100, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "United Kingdom of Great Britain and Northern Ireland"
+    sprite: {fileID: 21300084, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "United States of America"
+    sprite: {fileID: 21300200, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Uruguay"
+    sprite: {fileID: 21300292, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Uzbekistan"
+    sprite: {fileID: 21300242, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Vanuatu"
+    sprite: {fileID: 21300372, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Venezuela (Bolivarian Republic of)"
+    sprite: {fileID: 21300340, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Viet Nam"
+    sprite: {fileID: 21300204, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Wallis and Futuna"
+    sprite: {fileID: 21300252, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Western Sahara"
+    sprite: {fileID: 21300086, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Yemen"
+    sprite: {fileID: 21300308, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Zambia"
+    sprite: {fileID: 21300274, guid: 12a4e44ca101415faab093a6f087e702, type: 3}
+  - name: "Zimbabwe"
+    sprite: {fileID: 21300116, guid: 12a4e44ca101415faab093a6f087e702, type: 3}

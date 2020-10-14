@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tanks
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300112, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300174, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300250, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300176, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300012, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300198, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300046, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300022, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300144, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300030, guid: 5462c75ff3394629849f596f92b515fb, type: 3}
+    - {fileID: 21300006, guid: 5462c75ff3394629849f596f92b515fb, type: 3}
+    - {fileID: 21300010, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300034, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300248, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300150, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300210, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300040, guid: 5462c75ff3394629849f596f92b515fb, type: 3}
+    - {fileID: 21300052, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300036, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300108, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300178, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300148, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300158, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300116, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300056, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+    - {fileID: 21300152, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300182, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - {fileID: 21300134, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    totalSpriteSurfaceArea: 1020585
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300022, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300108, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300158, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300116, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300174, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300056, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300198, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300176, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300150, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300112, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300012, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300036, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+  - {fileID: 21300034, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300134, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300148, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300182, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300046, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300152, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300250, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300210, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300144, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300178, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300052, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300248, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300010, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+  - {fileID: 21300006, guid: 5462c75ff3394629849f596f92b515fb, type: 3}
+  - {fileID: 21300030, guid: 5462c75ff3394629849f596f92b515fb, type: 3}
+  - {fileID: 21300040, guid: 5462c75ff3394629849f596f92b515fb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - tank_flame_gun
+  - tank_mammoth_sheet_skin3_turret
+  - tank_spider_legfront_a1
+  - tank_playertank_turret2
+  - tank_tesla_gun3
+  - tank_mammoth_topchassis
+  - tank_mammoth_sheet_skin2_turret
+  - tank3_sheet_smallwheel2
+  - tank_playermissile_launchpad3
+  - vulcantank_sheet_gun_barrel2
+  - tank2_sheet_gun
+  - tank_playermissile_launchpad
+  - vulcantank_sheet_gun_barrel
+  - tank_tesla_gun2
+  - tank2_sheet_gun3
+  - tank3_sheet_smallwheel3
+  - tesla_gun_mask
+  - tank_spider_sheet_skin2_0
+  - tank_spider_sheet_skin3_0
+  - tank_flame_gun2
+  - tank_flame_gun3
+  - tank_playermissile_launchpad2
+  - tank_playertank_turret
+  - vulcantank_sheet_gun_barrel3
+  - tank3_sheet_smallwheel
+  - tank_tesla_gun
+  - tank_playertank_turret3
+  - tank2_sheet_gun2
+  m_Tag: Tanks
+  m_IsVariant: 0

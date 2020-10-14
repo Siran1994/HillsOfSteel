@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_banner"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentTop="true"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:visibility="invisible">
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/iv_img">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="9"
+            android:singleLine="true"
+            android:textColor="#2f2f2f"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="13"
+            android:singleLine="true"
+            android:textColor="#8f8f8f"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="#ffff4444"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="点击下载"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="@drawable/pld_close_btn" />
+</RelativeLayout>

@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -667331979, guid: a3c13301695d9572ab8f18273e395d1c, type: 3}
+  m_Name: "MrB_moonbreaker"
+  m_EditorClassIdentifier: 
+  hashCode: -773687351
+  material: {fileID: 2100000, guid: 0ba6ed25bdf441d3b3e60ccbcfa106ef, type: 2}
+  materialHashCode: 323414690
+  fontAssetType: 1
+  m_fontInfo:
+    Name: "Mister Belvedere"
+    PointSize: 186
+    Scale: 1
+    CharacterCount: 21
+    LineHeight: 186
+    Baseline: 0
+    Ascender: 154.1875
+    CapHeight: 115.875
+    Descender: -31.875
+    CenterLine: 0
+    SuperscriptOffset: 154.1875
+    SubscriptOffset: -23.81315
+    SubSize: 0.5
+    Underline: -23.81315
+    UnderlineThickness: 4.82699
+    strikethrough: 44.47727
+    strikethroughThickness: 4.82699
+    TabWidth: 465
+    Padding: 5
+    AtlasWidth: 512
+    AtlasHeight: 512
+  atlas: {fileID: 2800000, guid: b383226dd374487394792a7aea11a238, type: 3}
+  m_glyphInfoList:
+  - id: 45
+    x: 6
+    y: 72
+    width: 58.25
+    height: 23.1875
+    xOffset: 3.125
+    yOffset: 62.4375
+    xAdvance: 65.5
+    scale: 1
+  - id: 65
+    x: 110
+    y: 390
+    width: 84.3125
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 91.375
+    scale: 1
+  - id: 66
+    x: 196
+    y: 136
+    width: 72.25
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 79.3125
+    scale: 1
+  - id: 68
+    x: 223
+    y: 263
+    width: 72.0625
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 79.1875
+    scale: 1
+  - id: 69
+    x: 363
+    y: 9
+    width: 62.5625
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 69.6875
+    scale: 1
+  - id: 71
+    x: 299
+    y: 390
+    width: 72.5625
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 79.625
+    scale: 1
+  - id: 72
+    x: 391
+    y: 263
+    width: 71.125
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 78.1875
+    scale: 1
+  - id: 73
+    x: 467
+    y: 390
+    width: 30.25
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 37.3125
+    scale: 1
+  - id: 75
+    x: 102
+    y: 107
+    width: 82.6875
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 89.8125
+    scale: 1
+  - id: 76
+    x: 437
+    y: 9
+    width: 56.5
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 63.5625
+    scale: 1
+  - id: 77
+    x: 6
+    y: 234
+    width: 111.3125
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 118.4375
+    scale: 1
+  - id: 78
+    x: 6
+    y: 107
+    width: 84.5
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 91.5625
+    scale: 1
+  - id: 79
+    x: 280
+    y: 136
+    width: 71.4375
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 78.5
+    scale: 1
+  - id: 81
+    x: 6
+    y: 361
+    width: 92.6875
+    height: 144.6875
+    xOffset: -0.625
+    yOffset: 115.875
+    xAdvance: 78.5
+    scale: 1
+  - id: 82
+    x: 196
+    y: 9
+    width: 72.25
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 79.5
+    scale: 1
+  - id: 83
+    x: 383
+    y: 390
+    width: 72.0625
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 79.1875
+    scale: 1
+  - id: 84
+    x: 363
+    y: 136
+    width: 69.1875
+    height: 115.875
+    xOffset: 1.5
+    yOffset: 115.875
+    xAdvance: 73.0625
+    scale: 1
+  - id: 85
+    x: 280
+    y: 9
+    width: 71.75
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 78.8125
+    scale: 1
+  - id: 86
+    x: 129
+    y: 263
+    width: 82.0625
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 89.125
+    scale: 1
+  - id: 89
+    x: 206
+    y: 390
+    width: 81.125
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 88.1875
+    scale: 1
+  - id: 90
+    x: 307
+    y: 263
+    width: 72.25
+    height: 115.875
+    xOffset: 3.125
+    yOffset: 115.875
+    xAdvance: 79.3125
+    scale: 1
+  m_kerningInfo:
+    kerningPairs: []
+  m_kerningPair:
+    AscII_Left: 0
+    AscII_Right: 0
+    XadvanceOffset: 0
+  fallbackFontAssets: []
+  fontCreationSettings:
+    fontSourcePath: 
+    fontSizingMode: 0
+    fontSize: 0
+    fontPadding: 0
+    fontPackingMode: 0
+    fontAtlasWidth: 0
+    fontAtlasHeight: 0
+    fontCharacterSet: 0
+    fontStyle: 0
+    fontStlyeModifier: 0
+    fontRenderMode: 0
+    fontKerning: 0
+  fontWeights:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10

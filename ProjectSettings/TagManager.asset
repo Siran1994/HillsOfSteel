@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Wheel
+  - Scrap
+  - Ground
+  - Background
+  - LoadingScreen
+  - TankDriver
+  - EnemyTank
+  - AntiTankBarrier
+  - BufferCollider
+  - PlayerTank
+  - Bullet
+  - GarageTank
+  - GarageTankGround
+  - EnemyTankMain
+  - Shockwave
+  - PlayerTankRight
+  - MineTrigger
+  - Mine
+  - ForceField
+  - ForceFieldRight
+  - ShockwaveRight
+  - EnemyTankPassable
+  - AllyBullet
+  - EnemyBullet
+  m_SortingLayers:
+  - name: "Scrap"
+    uniqueID: 3990245365
+    locked: 0
+  - name: "Chain"
+    uniqueID: 4063799831
+    locked: 0
+  - name: "Default"
+    uniqueID: 0
+    locked: 0
+  - name: "Particles"
+    uniqueID: 521638829
+    locked: 0
+  - name: "UI Game"
+    uniqueID: 2746086577
+    locked: 0

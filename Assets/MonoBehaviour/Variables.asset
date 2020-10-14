@@ -1,0 +1,3950 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f696b47072af9badc9978f888f7415, type: 3}
+  m_Name: Variables
+  m_EditorClassIdentifier: 
+  levels:
+  - name: Midsummer Siege
+    hills:
+    - mode: 0
+      disabled: 0
+      frequency: 0.073
+      amplitude: 6.98
+      pow: 1
+      subtractive: 0
+      offset: 0
+    - mode: 0
+      disabled: 0
+      frequency: 0.256
+      amplitude: 1.1
+      pow: 1
+      subtractive: 0
+      offset: 0
+    - mode: 0
+      disabled: 0
+      frequency: 0.369
+      amplitude: 0.68
+      pow: 1
+      subtractive: 1
+      offset: 3.32
+    gravity: -6.93
+    minSpawnDistance: 10
+    minSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    maxSpawnDistance: 20
+    maxSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    spawnDistanceCurveCap: 1500
+    spawnRadius: 30
+    maxGroupSize: 4
+    extraTankProbabilityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    extraTankProbabilityDistanceCap: 1500
+    extraTankSpacing: 8
+    spawnRegions:
+    - afterTanks: 0
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 1
+      - enemyIndex: 2
+        probability: 0.35
+      - enemyIndex: 4
+        probability: 0.35
+    - afterTanks: 2
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 1
+      - enemyIndex: 1
+        probability: 0.35
+      - enemyIndex: 2
+        probability: 1
+      - enemyIndex: 4
+        probability: 0.75
+    - afterTanks: 5
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 0.75
+      - enemyIndex: 1
+        probability: 0.75
+      - enemyIndex: 2
+        probability: 0.75
+      - enemyIndex: 4
+        probability: 0.75
+      - enemyIndex: 3
+        probability: 0.5
+    - afterTanks: 10
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 0.35
+      - enemyIndex: 1
+        probability: 1
+      - enemyIndex: 2
+        probability: 0.5
+      - enemyIndex: 4
+        probability: 0.75
+      - enemyIndex: 3
+        probability: 0.75
+    bosses: 070000000800000009000000
+    hat: 0
+    dustColors:
+    - {r: 0.7882353, g: 0.4039216, b: 0.1960784, a: 1}
+    - {r: 0.1176471, g: 0.1137255, b: 0.1137255, a: 1}
+    price: 0
+    coinsPerScore: 1
+    levelOffsets:
+    - 9.62
+    - 18.21
+    - 29.87
+    leaderboard: 0
+  - name: Winter War
+    hills:
+    - mode: 0
+      disabled: 0
+      frequency: 0.1
+      amplitude: 8
+      pow: 1
+      subtractive: 0
+      offset: 0
+    - mode: 0
+      disabled: 0
+      frequency: 0.25
+      amplitude: 1.5
+      pow: 1
+      subtractive: 0
+      offset: 0
+    - mode: 0
+      disabled: 0
+      frequency: 0.25
+      amplitude: 1
+      pow: 1
+      subtractive: 1
+      offset: 3.32
+    gravity: -6.93
+    minSpawnDistance: 10
+    minSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    maxSpawnDistance: 20
+    maxSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    spawnDistanceCurveCap: 1500
+    spawnRadius: 30
+    maxGroupSize: 4
+    extraTankProbabilityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.68
+        outSlope: 1.68
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.6562505
+        outSlope: 0.6562505
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    extraTankProbabilityDistanceCap: 1500
+    extraTankSpacing: 5
+    spawnRegions:
+    - afterTanks: 0
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 1
+      - enemyIndex: 2
+        probability: 0.4
+      - enemyIndex: 4
+        probability: 0.4
+      - enemyIndex: 5
+        probability: 0.5
+    - afterTanks: 2
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 0.35
+      - enemyIndex: 1
+        probability: 0.5
+      - enemyIndex: 2
+        probability: 0.5
+      - enemyIndex: 3
+        probability: 0.5
+      - enemyIndex: 4
+        probability: 0.5
+      - enemyIndex: 5
+        probability: 0.5
+    - afterTanks: 5
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 1
+      - enemyIndex: 1
+        probability: 1
+      - enemyIndex: 2
+        probability: 1
+      - enemyIndex: 3
+        probability: 1
+      - enemyIndex: 4
+        probability: 1
+      - enemyIndex: 5
+        probability: 1
+    - afterTanks: 10
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 1
+      - enemyIndex: 1
+        probability: 1
+      - enemyIndex: 2
+        probability: 1
+      - enemyIndex: 3
+        probability: 1
+      - enemyIndex: 4
+        probability: 1
+      - enemyIndex: 5
+        probability: 1
+    bosses: 0700000008000000090000000a000000
+    hat: 0
+    dustColors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.3897059, g: 0.3897059, b: 0.3897059, a: 1}
+    price: 500
+    coinsPerScore: 2
+    levelOffsets:
+    - 15.89
+    - 35.38
+    - 51.6
+    leaderboard: 1
+  - name: Desert Assault
+    hills:
+    - mode: 0
+      disabled: 0
+      frequency: 0.05
+      amplitude: 10
+      pow: 1.5
+      subtractive: 0
+      offset: 0
+    - mode: 0
+      disabled: 0
+      frequency: 0.05
+      amplitude: 2
+      pow: 1.5
+      subtractive: 0
+      offset: 0
+    - mode: 0
+      disabled: 0
+      frequency: 0.109
+      amplitude: 4
+      pow: 3
+      subtractive: 0
+      offset: 0
+    gravity: -6.93
+    minSpawnDistance: 10
+    minSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    maxSpawnDistance: 20
+    maxSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    spawnDistanceCurveCap: 1500
+    spawnRadius: 30
+    maxGroupSize: 4
+    extraTankProbabilityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.68
+        outSlope: 1.68
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.6562505
+        outSlope: 0.6562505
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    extraTankProbabilityDistanceCap: 1500
+    extraTankSpacing: 5
+    spawnRegions:
+    - afterTanks: 0
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 1
+      - enemyIndex: 1
+        probability: 0.4
+      - enemyIndex: 2
+        probability: 0.4
+      - enemyIndex: 3
+        probability: 0.1
+      - enemyIndex: 4
+        probability: 0.5
+      - enemyIndex: 5
+        probability: 0.25
+      - enemyIndex: 6
+        probability: 0.75
+    bosses: 0b00000008000000090000000a0000000b000000
+    hat: 0
+    dustColors:
+    - {r: 1, g: 0.5172414, b: 0, a: 1}
+    - {r: 0.3897059, g: 0.2499493, b: 0, a: 1}
+    price: 3000
+    coinsPerScore: 3
+    levelOffsets:
+    - 23
+    - 43.9
+    - 50.9
+    leaderboard: 2
+  - name: Jungle Patrol
+    hills:
+    - mode: 0
+      disabled: 0
+      frequency: 0.106
+      amplitude: 5
+      pow: 1.67
+      subtractive: 0
+      offset: 0
+    - mode: 0
+      disabled: 0
+      frequency: 0.05
+      amplitude: 3
+      pow: 1.45
+      subtractive: 0
+      offset: 0
+    - mode: 0
+      disabled: 0
+      frequency: 0.136
+      amplitude: 5
+      pow: 1.8
+      subtractive: 0
+      offset: 0
+    gravity: -6.93
+    minSpawnDistance: 10
+    minSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    maxSpawnDistance: 20
+    maxSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    spawnDistanceCurveCap: 1500
+    spawnRadius: 30
+    maxGroupSize: 4
+    extraTankProbabilityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.68
+        outSlope: 1.68
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.6562505
+        outSlope: 0.6562505
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    extraTankProbabilityDistanceCap: 1500
+    extraTankSpacing: 5
+    spawnRegions:
+    - afterTanks: 0
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 1
+      - enemyIndex: 1
+        probability: 0.4
+      - enemyIndex: 2
+        probability: 0.4
+      - enemyIndex: 3
+        probability: 0.1
+      - enemyIndex: 4
+        probability: 0.5
+      - enemyIndex: 5
+        probability: 0.25
+      - enemyIndex: 12
+        probability: 1
+      - enemyIndex: 6
+        probability: 0.75
+    bosses: 0d00000008000000090000000a0000000b0000000d000000
+    hat: 0
+    dustColors:
+    - {r: 0.5220588, g: 0.4575693, b: 0.1996107, a: 1}
+    - {r: 0.2011022, g: 0.2205882, b: 0.003243947, a: 1}
+    price: 5000
+    coinsPerScore: 4
+    levelOffsets:
+    - 12.44
+    - 47.2
+    - 63.3
+    leaderboard: 3
+  - name: Moon Breaker
+    hills:
+    - mode: 1
+      disabled: 0
+      frequency: 0.032
+      amplitude: 2.53
+      pow: 1
+      subtractive: 0
+      offset: 0
+    - mode: 1
+      disabled: 0
+      frequency: 0.201
+      amplitude: 0.06
+      pow: 1
+      subtractive: 0
+      offset: 0
+    - mode: 0
+      disabled: 0
+      frequency: 0.182
+      amplitude: 3.12
+      pow: 1
+      subtractive: 0
+      offset: 2.32
+    gravity: -6
+    minSpawnDistance: 10
+    minSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    maxSpawnDistance: 20
+    maxSpawnDistanceCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.00238
+        inSlope: -1.636308
+        outSlope: -1.636308
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 0.9999474
+        value: 0.297084
+        inSlope: -0.05258033
+        outSlope: -0.05258033
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2039181
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    spawnDistanceCurveCap: 1500
+    spawnRadius: 30
+    maxGroupSize: 4
+    extraTankProbabilityCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.68
+        outSlope: 1.68
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.6562505
+        outSlope: 0.6562505
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3333333
+        outWeight: 0.3333333
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    extraTankProbabilityDistanceCap: 1500
+    extraTankSpacing: 5
+    spawnRegions:
+    - afterTanks: 0
+      enemyProbabilities:
+      - enemyIndex: 0
+        probability: 1
+      - enemyIndex: 1
+        probability: 0.4
+      - enemyIndex: 2
+        probability: 0.4
+      - enemyIndex: 3
+        probability: 0.1
+      - enemyIndex: 4
+        probability: 0.5
+      - enemyIndex: 5
+        probability: 0.25
+      - enemyIndex: 14
+        probability: 5
+    bosses: 08000000090000000a0000000f000000
+    hat: 1
+    dustColors:
+    - {r: 0.5220588, g: 0.5220588, b: 0.5220588, a: 1}
+    - {r: 0.2205882, g: 0.2205882, b: 0.2205882, a: 1}
+    price: 7000
+    coinsPerScore: 5
+    levelOffsets:
+    - 25.48
+    - 36.4
+    - 63.5
+    leaderboard: 4
+  adventureGenerationSettings:
+    groundWidth: 120
+    groundHeight: 15
+    groundRefreshInterval: 5
+    groundPrecision: 260
+  arenaGenerationSettings:
+    groundWidth: 180
+    groundHeight: 15
+    groundRefreshInterval: 180
+    groundPrecision: 360
+  wheelSuspensionFrequency: 6
+  wheelSuspensionDampening: 0.5
+  defaultFumes: 2.3
+  engineSoundAlteringSpeed: 0.75
+  engineMaxPitch: 1.4
+  engineMinVolume: 0.2
+  engineMaxVolume: 0.5
+  speedFumes: 50
+  nearDeathFumesColor: {r: 0, g: 0, b: 0, a: 0}
+  maxDustPartices: 200
+  maxDustParticleSpeed: 2500
+  flippedOverDamageTime: 2
+  flippedOverDamagePerSecond: 0.5
+  screenWidth: 12
+  cameraSpring: 0.1
+  cameraOffset: 4
+  cameraRecoil: 0.2
+  cameraShootShake: 0.3
+  cameraShakeFrequency: 11.6
+  cameraShakeDampening: 0.12
+  cameraShakeExplosion: 0.7
+  cameraShakeExplosionRange: 20
+  cameraShakeExplosionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1.00625
+      inSlope: 0.01735885
+      outSlope: 0.01735885
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    - serializedVersion: 3
+      time: 0.9936755
+      value: 0.3277881
+      inSlope: -0.1860699
+      outSlope: -0.1860699
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  selfDamageScale: 0.5
+  damageRangeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.004166667
+      value: 1.01875
+      inSlope: -3.740388
+      outSlope: -3.740388
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    - serializedVersion: 3
+      time: 1
+      value: 0.0000001192093
+      inSlope: -0.1227614
+      outSlope: -0.1227614
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  tankDeathForce: {x: 120, y: 250}
+  tankDeathForceOffset: 0.15
+  tankDeathForceHpFactorCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.005146027
+      value: 0.5187531
+      inSlope: 0.4787831
+      outSlope: 0.4787831
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.4787831
+      outSlope: 0.4787831
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  tankDeathForceHpFactorHpCap: 20
+  damageRangeSpriteGrowCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    - serializedVersion: 3
+      time: 0.4916687
+      value: 1.006248
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    - serializedVersion: 3
+      time: 0.9916667
+      value: 1.0625
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  damageRangeSpriteAlphaCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    - serializedVersion: 3
+      time: 0.1820648
+      value: 1.00625
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    - serializedVersion: 3
+      time: 1.004163
+      value: 0.01249695
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3333333
+      outWeight: 0.3333333
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  damageRangeSpriteTime: 0.5
+  damageScaleDownDistance: 13.5
+  maxDamageDistance: 25
+  damageScaleDownStart: 0.75
+  damageScaleDownEnd: 0
+  enemies:
+  - name: 0 Stuart
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059102910, guid: 51acf5d65a3746c787f878a0c49efcae,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 5
+      reloadTime: 0
+      health: 10
+      acceleration: 600
+      maxSpeed: 600
+      brake: 600
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 5
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: stuartTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103029, guid: 358a3b1f97dd44d4944caa791be48f99,
+        type: 3}
+      speed: 20
+      bulletGravityScale: 2
+      recoil: 400
+      hitForce: 10
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: -5
+    maxAngle: 5
+    shots:
+    - aimDuration: 0.15
+      shootDuration: 0.5
+      moveDuration: 0.5
+    maxAimDistance: 10
+    selfDamageScale: 1
+    scoreReward: 1
+    achievement: 0
+  - name: 1 Tiger
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103802, guid: 9af4162745c749de9c57d160aa6b07de,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 15
+      reloadTime: 0
+      health: 20
+      acceleration: 300
+      maxSpeed: 300
+      brake: 300
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 4
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: tigerTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103978, guid: f60497f6d5bb4653868ee7c92fabd020,
+        type: 3}
+      speed: 20
+      bulletGravityScale: 2
+      recoil: 400
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: -5
+    maxAngle: 5
+    shots:
+    - aimDuration: 0.75
+      shootDuration: 0.75
+      moveDuration: 1
+    maxAimDistance: 10
+    selfDamageScale: 0.5
+    scoreReward: 1
+    achievement: 0
+  - name: 2 Mortar
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103387, guid: 4798421d831d4a909b1513285e1a1303,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 8
+      reloadTime: 0
+      health: 15
+      acceleration: 300
+      maxSpeed: 300
+      brake: 300
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 4
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: mortarTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103532, guid: 2d4ae859d3014d0a95bc035ff3ce31fd,
+        type: 3}
+      speed: 12
+      bulletGravityScale: 2
+      recoil: 100
+      hitForce: 10
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 0
+    maxAngle: 80
+    shots:
+    - aimDuration: 0.3
+      shootDuration: 0.15
+      moveDuration: 1
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    maxAimDistance: 15
+    selfDamageScale: 1
+    scoreReward: 1
+    achievement: 0
+  - name: 3 Missile
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103526, guid: 61451ffba4504efe9817403689c620a3,
+      type: 3}
+    spawnLimit: 1
+    stats:
+      damage: 2.5
+      reloadTime: 0
+      health: 25
+      acceleration: 1500
+      maxSpeed: 1500
+      brake: 1500
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 13
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: missileTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103762, guid: 8fd9b6e77dbb45c9a95fa0942dbc0730,
+        type: 3}
+      speed: 15
+      bulletGravityScale: 2
+      recoil: 400
+      hitForce: 15
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 10
+    maxAngle: 80
+    shots:
+    - aimDuration: 0.25
+      shootDuration: 0.1
+      moveDuration: 1
+    - aimDuration: 0
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.1
+      moveDuration: 0
+    maxAimDistance: 15
+    selfDamageScale: 1
+    scoreReward: 1
+    achievement: 0
+  - name: 4 Machine Gun
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103934, guid: 15b9495b20f2440a89f7110476d442ca,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 10
+      reloadTime: 0
+      health: 20
+      acceleration: 500
+      maxSpeed: 500
+      brake: 500
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 8
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 2
+      shootAudioName: machineGunTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103762, guid: 8fd9b6e77dbb45c9a95fa0942dbc0730,
+        type: 3}
+      speed: 12
+      bulletGravityScale: 2
+      recoil: 0
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0
+      shootTime: 0.2
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 0
+    maxAngle: 0
+    shots:
+    - aimDuration: 0
+      shootDuration: 2
+      moveDuration: 0.25
+    maxAimDistance: 14
+    selfDamageScale: 1
+    scoreReward: 1
+    achievement: 0
+  - name: 5 Grenadier
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059104039, guid: 69cab090a59c4c6697c451f5443d4b7a,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 10
+      reloadTime: 0
+      health: 20
+      acceleration: 750
+      maxSpeed: 750
+      brake: 750
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 8
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 3
+      shootAudioName: mortarTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103531, guid: 2c33f66da56441838f6d531bf14bf003,
+        type: 3}
+      speed: 12
+      bulletGravityScale: 2
+      recoil: 400
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1.5
+      warmupTime: 0
+      shootTime: 0.2
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 0
+    maxAngle: 90
+    shots:
+    - aimDuration: 0.5
+      shootDuration: 0.1
+      moveDuration: 1
+    maxAimDistance: 14
+    selfDamageScale: 1
+    scoreReward: 1
+    achievement: 0
+  - name: 6 Helicopter
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059102815, guid: abe7cbd181a9444ebc3c201f947ea219,
+      type: 3}
+    spawnLimit: 2
+    stats:
+      damage: 20
+      reloadTime: 0
+      health: 15
+      acceleration: 10
+      maxSpeed: 10
+      brake: 10
+      dps: 0
+    speedWhileAttacking: 2
+    distanceTarget: 18
+    hasToBeSeenBeforeAttacks: 0
+    getBackToPlayerAfterPassing: 1
+    bullet:
+      type: 2
+      shootAudioName: copterFiring
+      shootStartAudioName: copterAiming
+      shootEndAudioName: copterFiringEnd
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103531, guid: 2c33f66da56441838f6d531bf14bf003,
+        type: 3}
+      speed: 12
+      bulletGravityScale: 2
+      recoil: 0
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1.5
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 0
+    maxAngle: 90
+    shots:
+    - aimDuration: 2
+      shootDuration: 5
+      moveDuration: 0.25
+    maxAimDistance: 14
+    selfDamageScale: 1
+    scoreReward: 1
+    achievement: 0
+  - name: Thunderclap
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103691, guid: af5df2f28f3b44189052a5c11c295747,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 10
+      reloadTime: 0
+      health: 35
+      acceleration: 350
+      maxSpeed: 350
+      brake: 350
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 4
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: tigerTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103979, guid: b0939c51076046e8a6573c6c39953ac3,
+        type: 3}
+      speed: 35
+      bulletGravityScale: 2
+      recoil: 400
+      hitForce: 25
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1.5
+      warmupTime: 0
+      shootTime: 0.2
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: -15
+    maxAngle: 15
+    shots:
+    - aimDuration: 0.5
+      shootDuration: 0.1
+      moveDuration: 1
+    maxAimDistance: 14
+    selfDamageScale: 0.1
+    scoreReward: 3
+    achievement: 21
+  - name: Armordillo
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059102991, guid: c6ecd58cba20475d878234871c187538,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 10
+      reloadTime: 0
+      health: 35
+      acceleration: 350
+      maxSpeed: 350
+      brake: 350
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 4
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: mortarTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103887, guid: a2cfc912080d4c918ecc10c87b74e540,
+        type: 3}
+      speed: 12
+      bulletGravityScale: 2
+      recoil: 100
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1.5
+      warmupTime: 0
+      shootTime: 0.2
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 0
+    maxAngle: 80
+    shots:
+    - aimDuration: 0.3
+      shootDuration: 0.15
+      moveDuration: 1
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    maxAimDistance: 14
+    selfDamageScale: 0.1
+    scoreReward: 3
+    achievement: 25
+  - name: Legion
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103654, guid: 7cad280f410e492f96dae9cb27212651,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 5
+      reloadTime: 0
+      health: 35
+      acceleration: 350
+      maxSpeed: 350
+      brake: 350
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 4
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: missileTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059102932, guid: c140c19903de4df2a7b214dc514a3b8c,
+        type: 3}
+      speed: 15
+      bulletGravityScale: 2
+      recoil: 400
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1.5
+      warmupTime: 0
+      shootTime: 0.2
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: -10
+    maxAngle: 85
+    shots:
+    - aimDuration: 0.35
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.1
+      moveDuration: 1
+    maxAimDistance: 14
+    selfDamageScale: 0.1
+    scoreReward: 3
+    achievement: 23
+  - name: Scourge
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059104042, guid: d226096713f6449ab654e204d5c9061d,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 10
+      reloadTime: 0
+      health: 35
+      acceleration: 750
+      maxSpeed: 750
+      brake: 750
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 5
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 3
+      shootAudioName: mortarTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103214, guid: 947c962386f643bd91ff15ac09b2a1de,
+        type: 3}
+      speed: 12
+      bulletGravityScale: 2
+      recoil: 400
+      hitForce: 25
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1.5
+      warmupTime: 0
+      shootTime: 0.2
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 0
+    maxAngle: 90
+    shots:
+    - aimDuration: 0.5
+      shootDuration: 0.1
+      moveDuration: 1
+    maxAimDistance: 14
+    selfDamageScale: 0.1
+    scoreReward: 3
+    achievement: 22
+  - name: Hellacopter
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103070, guid: 15d464387e68428994c2ab9b9a03e026,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 50
+      reloadTime: 0
+      health: 35
+      acceleration: 10
+      maxSpeed: 10
+      brake: 10
+      dps: 0
+    speedWhileAttacking: 3
+    distanceTarget: 20
+    hasToBeSeenBeforeAttacks: 0
+    getBackToPlayerAfterPassing: 1
+    bullet:
+      type: 2
+      shootAudioName: copterFiring
+      shootStartAudioName: copterAiming
+      shootEndAudioName: copterFiringEnd
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103979, guid: b0939c51076046e8a6573c6c39953ac3,
+        type: 3}
+      speed: 12
+      bulletGravityScale: 2
+      recoil: 0
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1.5
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 0
+    maxAngle: 90
+    shots:
+    - aimDuration: 2
+      shootDuration: 6
+      moveDuration: 0.25
+    maxAimDistance: 14
+    selfDamageScale: 0.1
+    scoreReward: 3
+    achievement: 24
+  - name: 12 Jet
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103515, guid: ce8d6d6d658147a783a1e3c31cfdd792,
+      type: 3}
+    spawnLimit: 2
+    stats:
+      damage: 2.5
+      reloadTime: 0
+      health: 5
+      acceleration: 9
+      maxSpeed: 9
+      brake: 9
+      dps: 0
+    speedWhileAttacking: 9
+    distanceTarget: 0
+    hasToBeSeenBeforeAttacks: 0
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: missileTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 1789989809059102737, guid: 4ba779281bb84370b8ed6c439d14c7a1,
+        type: 3}
+      particleEffectBulletHitTank: {fileID: 1789989809059103676, guid: 224a86f4d103452ebf52475080984be9,
+        type: 3}
+      prefab: {fileID: 1789989809059103224, guid: 2952a93d11554d258ae4b686ab0d48d1,
+        type: 3}
+      speed: 2
+      bulletGravityScale: 0.33
+      recoil: 0
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1.5
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 0
+    maxAngle: 90
+    shots:
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 0.75
+    maxAimDistance: 14
+    selfDamageScale: 0
+    scoreReward: 1
+    achievement: 0
+  - name: Hellabomber
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103069, guid: d362af63f1e343d39555a8d98fa8123c,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 2.5
+      reloadTime: 0
+      health: 35
+      acceleration: 7
+      maxSpeed: 7
+      brake: 7
+      dps: 0
+    speedWhileAttacking: 7
+    distanceTarget: 7
+    hasToBeSeenBeforeAttacks: 0
+    getBackToPlayerAfterPassing: 1
+    bullet:
+      type: 0
+      shootAudioName: missileTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 1789989809059102737, guid: 4ba779281bb84370b8ed6c439d14c7a1,
+        type: 3}
+      particleEffectBulletHitTank: {fileID: 1789989809059103676, guid: 224a86f4d103452ebf52475080984be9,
+        type: 3}
+      prefab: {fileID: 1789989809059103224, guid: 2952a93d11554d258ae4b686ab0d48d1,
+        type: 3}
+      speed: 2
+      bulletGravityScale: 0.33
+      recoil: 0
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1.5
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: 0
+    maxAngle: 90
+    shots:
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 0
+    - aimDuration: 0
+      shootDuration: 0.2
+      moveDuration: 2
+    maxAimDistance: 14
+    selfDamageScale: 0
+    scoreReward: 1
+    achievement: 26
+  - name: 14 Lazer
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103252, guid: 479d3f438f834efda3ae1e1b2d7a7ac9,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 5
+      reloadTime: 0
+      health: 20
+      acceleration: 750
+      maxSpeed: 750
+      brake: 750
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 6
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: laserShoot
+      shootStartAudioName: laserAim
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059102780, guid: 3b3452f5c1ac460daaaf83d9beb508e6,
+        type: 3}
+      speed: 25
+      bulletGravityScale: 0
+      recoil: 100
+      hitForce: 10
+      damageRange: 0
+      perMissileTime: 0
+      angleRandomization: 0
+      explosionDelay: 0
+      warmupTime: 0
+      shootTime: 0.2
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: -15
+    maxAngle: 45
+    shots:
+    - aimDuration: 0.5
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 1
+    maxAimDistance: 10
+    selfDamageScale: 0
+    scoreReward: 1
+    achievement: 0
+  - name: Laserjaw
+    nameSprite: {fileID: 0}
+    prefab: {fileID: 1789989809059103637, guid: 3e082e7856334ed7aa1fba89cbb01e5e,
+      type: 3}
+    spawnLimit: 0
+    stats:
+      damage: 10
+      reloadTime: 0
+      health: 35
+      acceleration: 150
+      maxSpeed: 150
+      brake: 150
+      dps: 0
+    speedWhileAttacking: 0
+    distanceTarget: 5
+    hasToBeSeenBeforeAttacks: 1
+    getBackToPlayerAfterPassing: 0
+    bullet:
+      type: 0
+      shootAudioName: laserShoot
+      shootStartAudioName: laserAim
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059102781, guid: f09d34b0bd574d79b3132e7d42b60200,
+        type: 3}
+      speed: 25
+      bulletGravityScale: 0
+      recoil: 100
+      hitForce: 10
+      damageRange: 0
+      perMissileTime: 0
+      angleRandomization: 0
+      explosionDelay: 0
+      warmupTime: 0
+      shootTime: 0.2
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    minAngle: -15
+    maxAngle: 45
+    shots:
+    - aimDuration: 0.5
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 0
+    - aimDuration: 0.1
+      shootDuration: 0.1
+      moveDuration: 1
+    maxAimDistance: 13
+    selfDamageScale: 0
+    scoreReward: 3
+    achievement: 27
+  enemyScrapDuration: 3.5
+  enemyScrapFadeOutTime: 1
+  tanks:
+  - name: Cobra
+    id: tank0
+    cardType: 1
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 1e0964335be84859bb0b262549f71072, type: 3}
+    card: {fileID: 21300000, guid: 4b2c2764512b4ebf9b3b987e6fbe9873, type: 3}
+    coinValue: 1
+    type: 0
+    progression:
+      minStep:
+        damage: 15
+        reloadTime: 1.2
+        health: 120
+        acceleration: 1000
+        maxSpeed: 1300
+        brake: 800
+        dps: 13
+      maxStep:
+        damage: 30
+        reloadTime: 1
+        health: 780
+        acceleration: 1600
+        maxSpeed: 2100
+        brake: 800
+        dps: 30
+    prefab: {fileID: 1789989809059103656, guid: f5b2ae7ff6d1481e9547db8771adb961,
+      type: 3}
+    bullet:
+      type: 0
+      shootAudioName: playerTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103932, guid: 1765b0dde96746f29db1a1d1b9d5194b,
+        type: 3}
+      speed: 20
+      bulletGravityScale: 2
+      recoil: 400
+      hitForce: 35
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    tankMass: 2.96
+    tankSkins:
+    - name: Green
+      price: 0
+      uiPreview: {fileID: 21300000, guid: 623612450bb846f99a836d7d7850996c, type: 3}
+      gun: {fileID: 21300000, guid: 43a6d0917aa07794c84f0a68cf8c804b, type: 3}
+      gunRecoil: {fileID: 21300000, guid: 19db3559510d6604894c144e58f7a2d0, type: 3}
+      turret: {fileID: 21300000, guid: 657b697b791f6de4a978a4fb45a58e62, type: 3}
+      chassisLower: {fileID: 21300000, guid: 4212f2fe38b3f22459578028d831dd23, type: 3}
+      chassisTop: {fileID: 21300000, guid: e36990080a30dba459106e73846c1fb3, type: 3}
+      cogwheel: {fileID: 21300000, guid: ad9e9094e4479d64c90c157cbdba1e77, type: 3}
+      smallWheel: {fileID: 21300000, guid: 34f432e2998c2354bb590e234f20dc58, type: 3}
+      wheel: {fileID: 21300000, guid: 57cf85a2db4a99f469cb893fd23df5b6, type: 3}
+      suspension: {fileID: 0}
+    - name: Urban
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: 09f12423bb7640c896855d46792c85fd, type: 3}
+      gun: {fileID: 21300000, guid: c50fb8cc967e4b5458bf2513ec7442be, type: 3}
+      gunRecoil: {fileID: 21300000, guid: d7883e271e344644b84e44c13ffe68b2, type: 3}
+      turret: {fileID: 21300000, guid: 573c28a546ccb174ebd3cec04100e45b, type: 3}
+      chassisLower: {fileID: 21300000, guid: 4aff2098eb870f74384ad5deabcd4193, type: 3}
+      chassisTop: {fileID: 21300000, guid: 7fa5dd960d2a3ea478f25f86ee17b0df, type: 3}
+      cogwheel: {fileID: 21300000, guid: 9062c7ef756856940826ca730da81f58, type: 3}
+      smallWheel: {fileID: 21300000, guid: f05a914fd8dcdd64b83992cf8bcf5497, type: 3}
+      wheel: {fileID: 21300000, guid: c6505d729dcc1cf44b5e74a7d15edf02, type: 3}
+      suspension: {fileID: 0}
+    - name: Venom
+      price: 2000
+      uiPreview: {fileID: 21300000, guid: abac0bcb9c3e470fbffe41fcf774d693, type: 3}
+      gun: {fileID: 21300184, guid: a6f2b8e7471c449ba1dcf01059ace431, type: 3}
+      gunRecoil: {fileID: 21300000, guid: 38bd1b759ff3ee441a25d3d4b542af66, type: 3}
+      turret: {fileID: 21300000, guid: e27f0ab936805d040941da0757389b4a, type: 3}
+      chassisLower: {fileID: 21300000, guid: 6707106f4c18fd34e88e5439fa318a95, type: 3}
+      chassisTop: {fileID: 21300000, guid: c0fed2d12ae0c5849b2f83179824f9fe, type: 3}
+      cogwheel: {fileID: 21300000, guid: 2196a406a24458543b5f12b6650dd5a0, type: 3}
+      smallWheel: {fileID: 21300000, guid: bd9eb43271b5a8c4e9f715181fb773da, type: 3}
+      wheel: {fileID: 21300000, guid: 682376288c06fbd41aafc466a718c525, type: 3}
+      suspension: {fileID: 0}
+    boosters:
+    - cobraAirstrike
+    - cobraRepairKit
+    - cobraCircleSaw
+    - cobraShockwave
+    - cobraMine
+    - cobraForceField
+  - name: Titan
+    id: tank1
+    cardType: 1
+    rarity: 0
+    fullSprite: {fileID: 21300000, guid: 720bdca7933b4ffa9ea0cd5d65eb776b, type: 3}
+    bigCard: {fileID: 21300000, guid: 2047bd42c7b64fc7a2722fac7746cc1b, type: 3}
+    card: {fileID: 21300000, guid: ea5a031a6c8245e4a316b14c0e0ae76b, type: 3}
+    coinValue: 1
+    type: 2
+    progression:
+      minStep:
+        damage: 25
+        reloadTime: 2
+        health: 140
+        acceleration: 600
+        maxSpeed: 1000
+        brake: 800
+        dps: 20
+      maxStep:
+        damage: 50
+        reloadTime: 1.5
+        health: 800
+        acceleration: 1500
+        maxSpeed: 1600
+        brake: 800
+        dps: 42
+    prefab: {fileID: 1789989809059103294, guid: cde1ab94ff134f4bb6f8c062c76c3d96,
+      type: 3}
+    bullet:
+      type: 0
+      shootAudioName: playerTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103932, guid: 1765b0dde96746f29db1a1d1b9d5194b,
+        type: 3}
+      speed: 30
+      bulletGravityScale: 2
+      recoil: 800
+      hitForce: 40
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    tankMass: 5
+    tankSkins:
+    - name: Green
+      price: 0
+      uiPreview: {fileID: 21300000, guid: 656d3f99a06d4634acaffba91ddbc9ca, type: 3}
+      gun: {fileID: 21300000, guid: 6ab4451f4516dfe4b8b7307059212367, type: 3}
+      gunRecoil: {fileID: 21300000, guid: 168a59a4b8723d742b22eb1c9dc1af37, type: 3}
+      turret: {fileID: 21300000, guid: 6661bd8de549af94fb82afbc925f39a2, type: 3}
+      chassisLower: {fileID: 21300000, guid: 6063d090bfff70d4cb5666ae90f01b16, type: 3}
+      chassisTop: {fileID: 0}
+      cogwheel: {fileID: 21300000, guid: a3a3a38eeeed98647a320260215385e7, type: 3}
+      smallWheel: {fileID: 21300000, guid: 11c569dbfa262904aa0d018eda8d4c44, type: 3}
+      wheel: {fileID: 21300000, guid: 04616db7686cc0447b8894a25d3e05df, type: 3}
+      suspension: {fileID: 21300000, guid: 6dedeb678c1c32c4b8f3c03840d90b61, type: 3}
+    - name: Black
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: 1ae548fb87c149b49453c52dd8124480, type: 3}
+      gun: {fileID: 21300000, guid: 4bf4601f37c9f4142812a315f2461d78, type: 3}
+      gunRecoil: {fileID: 21300000, guid: 65315b9ff9a293a46abf332954967864, type: 3}
+      turret: {fileID: 21300000, guid: d7c773b194ce6ee43a397cdb899a2c93, type: 3}
+      chassisLower: {fileID: 21300000, guid: 75adfb52eec2d4d439eb730ced3c2edb, type: 3}
+      chassisTop: {fileID: 0}
+      cogwheel: {fileID: 21300000, guid: d417060746710c34fb7fa0bb1b5ca1b6, type: 3}
+      smallWheel: {fileID: 21300000, guid: 50b1b3697c4b0504abe8263acdb1d86a, type: 3}
+      wheel: {fileID: 21300000, guid: 835e9529543acc64c8fd16e0e1f61356, type: 3}
+      suspension: {fileID: 21300086, guid: 97aadc487a88464ea0fdd5ec229561c2, type: 3}
+    - name: Flash
+      price: 2000
+      uiPreview: {fileID: 21300000, guid: d4e68f7f2bdf45edb2e7054970ea52ac, type: 3}
+      gun: {fileID: 21300000, guid: 8f7adb327d69ba340b816f513fb2762c, type: 3}
+      gunRecoil: {fileID: 21300000, guid: 168a59a4b8723d742b22eb1c9dc1af37, type: 3}
+      turret: {fileID: 21300000, guid: 2fbcd345ff3e04f49ac929fff0ad5627, type: 3}
+      chassisLower: {fileID: 21300000, guid: 2d1614361256b1948bba22ce45855add, type: 3}
+      chassisTop: {fileID: 0}
+      cogwheel: {fileID: 21300000, guid: 95d034183047e4245a4a9eb9b1419ad1, type: 3}
+      smallWheel: {fileID: 21300000, guid: 65ffe343543b6ba4a8e9a7dc93030f7c, type: 3}
+      wheel: {fileID: 21300000, guid: 3896cbf746a413049a72378c309705e0, type: 3}
+      suspension: {fileID: 21300000, guid: 1f728ddef7854d544b50a17e20007f19, type: 3}
+    boosters:
+    - titanAirstrike
+    - titanRepairKit
+    - titanCircleSaw
+    - titanShockwave
+    - titanMine
+    - titanForceField
+  - name: Joker
+    id: tank2
+    cardType: 1
+    rarity: 0
+    fullSprite: {fileID: 21300000, guid: 5b76dce370b54d9dba2bee0378c987f7, type: 3}
+    bigCard: {fileID: 21300000, guid: fac6abf837d14c5da4c724c66a54eef8, type: 3}
+    card: {fileID: 21300000, guid: b4400bc1ccbe4ec48c1352f212b1a3af, type: 3}
+    coinValue: 1
+    type: 1
+    progression:
+      minStep:
+        damage: 8
+        reloadTime: 0.5
+        health: 110
+        acceleration: 1800
+        maxSpeed: 1600
+        brake: 800
+        dps: 16
+      maxStep:
+        damage: 18
+        reloadTime: 0.35
+        health: 720
+        acceleration: 2700
+        maxSpeed: 2500
+        brake: 800
+        dps: 36
+    prefab: {fileID: 1789989809059103137, guid: 93e4926934404aaa854688919f3fe70b,
+      type: 3}
+    bullet:
+      type: 0
+      shootAudioName: playerTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103932, guid: 1765b0dde96746f29db1a1d1b9d5194b,
+        type: 3}
+      speed: 20
+      bulletGravityScale: 2
+      recoil: 220
+      hitForce: 20
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0
+      shootTime: 0.2
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    tankMass: 2.96
+    tankSkins:
+    - name: Green
+      price: 0
+      uiPreview: {fileID: 21300000, guid: 71322c8a77ff471f8a5979046676a8be, type: 3}
+      gun: {fileID: 21300000, guid: e3ce79b37e26a4546b7a1874b82c0bd2, type: 3}
+      gunRecoil: {fileID: 21300000, guid: 516f34a3dd8407442925615afec249c2, type: 3}
+      turret: {fileID: 21300000, guid: c2051e7848cf2e14bb5d7a3dcae28f67, type: 3}
+      chassisLower: {fileID: 21300000, guid: 9df2bec28094649479ba6fb0fc0a4701, type: 3}
+      chassisTop: {fileID: 21300000, guid: 36780cfeffb45b74891b84f2b765700a, type: 3}
+      cogwheel: {fileID: 21300000, guid: 1816f173a6de5c0478b35e97b4f5659e, type: 3}
+      smallWheel: {fileID: 21300000, guid: 8602d2d87cf2c7743acb66bd77a23bc5, type: 3}
+      wheel: {fileID: 21300000, guid: 65d1f043d3f374945bf53055efad37ab, type: 3}
+      suspension: {fileID: 21300000, guid: b37a97c7e28e30849b3d1786a6665476, type: 3}
+    - name: Desert
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: 82ffe669471c43829cd8ba49d8566baa, type: 3}
+      gun: {fileID: 21300000, guid: c63ebf7d30c7b0e4b9c473a4b2047cd3, type: 3}
+      gunRecoil: {fileID: 21300000, guid: dbf7d49378034f74ebdb91ed6361d68b, type: 3}
+      turret: {fileID: 21300000, guid: 54ce95a78bae25e49b46d9718b1db207, type: 3}
+      chassisLower: {fileID: 21300000, guid: 0affd9b5821afb64189d7333d0df1577, type: 3}
+      chassisTop: {fileID: 21300000, guid: b32e45e956aaf154bbad0f6ba87ebe57, type: 3}
+      cogwheel: {fileID: 21300000, guid: 3b0c5ba2e05bbe94c88416b8d4c72de4, type: 3}
+      smallWheel: {fileID: 21300000, guid: 650ce99471e1a454d83edb7665953f25, type: 3}
+      wheel: {fileID: 21300000, guid: f4974df205e73754d9a38e07263b33fe, type: 3}
+      suspension: {fileID: 21300000, guid: 58638a5842a92b74fa09c8c78505dcca, type: 3}
+    - name: Grin
+      price: 2000
+      uiPreview: {fileID: 21300000, guid: 8e0b71d92e9e4497b42bae2dba6b271b, type: 3}
+      gun: {fileID: 21300000, guid: 93ec9de5fdf911241b82b4cdd9562704, type: 3}
+      gunRecoil: {fileID: 21300000, guid: d7f1507f522bcde4a822b9ba8b138a98, type: 3}
+      turret: {fileID: 21300000, guid: de550df364b583043889b992c133023d, type: 3}
+      chassisLower: {fileID: 21300000, guid: 075eb3d969d7f574b9426663921e2b41, type: 3}
+      chassisTop: {fileID: 21300000, guid: e26604137b8641a44afa91dcfd2ab524, type: 3}
+      cogwheel: {fileID: 21300000, guid: 31e2fc3a8972c7e4ba3f0a2fd4434b5a, type: 3}
+      smallWheel: {fileID: 21300000, guid: 5e3bdde34b1bd824ca4b4f01c3ecd3a6, type: 3}
+      wheel: {fileID: 21300000, guid: 892c6fc97b5c1ce40bde6092b0440930, type: 3}
+      suspension: {fileID: 21300000, guid: 01dd22eefd5426e4e97bf42f4a7ccd4a, type: 3}
+    boosters:
+    - jokerAirstrike
+    - jokerRepairKit
+    - jokerCircleSaw
+    - jokerShockwave
+    - jokerMine
+    - jokerForceField
+  - name: Phoenix
+    id: tank3
+    cardType: 1
+    rarity: 0
+    fullSprite: {fileID: 21300000, guid: 62aab9fc1dc8448ba36eaa68e226ef57, type: 3}
+    bigCard: {fileID: 21300000, guid: 47475044a8954f68a3413b429a089099, type: 3}
+    card: {fileID: 21300000, guid: 7c3ec2a9185e42458401f2bd77e1fee6, type: 3}
+    coinValue: 1
+    type: 3
+    progression:
+      minStep:
+        damage: 15
+        reloadTime: 1
+        health: 130
+        acceleration: 1800
+        maxSpeed: 2000
+        brake: 1200
+        dps: 15
+      maxStep:
+        damage: 30
+        reloadTime: 1
+        health: 860
+        acceleration: 3000
+        maxSpeed: 2300
+        brake: 1200
+        dps: 30
+    prefab: {fileID: 1789989809059104077, guid: e6749e8fd7be492480b3f8e8d92eae22,
+      type: 3}
+    bullet:
+      type: 1
+      shootAudioName: playerTankFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 0}
+      speed: 0
+      bulletGravityScale: 2
+      recoil: 400
+      hitForce: 25
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0
+      shootTime: 0.1
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    tankMass: 2.96
+    tankSkins:
+    - name: Green
+      price: 0
+      uiPreview: {fileID: 21300000, guid: 13882af920ad43da925a57f1d3694fd2, type: 3}
+      gun: {fileID: 21300000, guid: 4b13c5671d08b4442a6ae5f3492ebe14, type: 3}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 0}
+      chassisLower: {fileID: 21300000, guid: a28a6887386fe704badc5dc292b9015a, type: 3}
+      chassisTop: {fileID: 21300000, guid: c8c185b04372de24d8527890b3054f2a, type: 3}
+      cogwheel: {fileID: 21300000, guid: ec17628d1e166554d8d6950176f4c98d, type: 3}
+      smallWheel: {fileID: 21300000, guid: 77fc86af615da964bab782dd381bcf6c, type: 3}
+      wheel: {fileID: 21300000, guid: 67bd97e40002cf140bab0cd79c34b1b4, type: 3}
+      suspension: {fileID: 21300000, guid: a8c3fe1c19a5be3478bbd2fa50bea62f, type: 3}
+    - name: Forest
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: 32703123bde148b8967db3e771d59e67, type: 3}
+      gun: {fileID: 21300000, guid: a5675dcd8142bff48824a86b1a1ae871, type: 3}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 0}
+      chassisLower: {fileID: 21300000, guid: 0283ef68e1c423e44bd7838cf0b80e76, type: 3}
+      chassisTop: {fileID: 21300000, guid: f7086f1365787494f99b1ed41604a65a, type: 3}
+      cogwheel: {fileID: 21300000, guid: b5fa0e5d2a95c724d8ed383ec1947796, type: 3}
+      smallWheel: {fileID: 21300000, guid: fd4c82f3aa7e51f4ca07eb0452da44b0, type: 3}
+      wheel: {fileID: 21300000, guid: 1bc1e2d1226bc354b872736895e40e30, type: 3}
+      suspension: {fileID: 21300000, guid: 3e3bb7114df24d749b290f498c034df0, type: 3}
+    - name: Inferno
+      price: 2000
+      uiPreview: {fileID: 21300000, guid: 1c385ebc511848d2adc2855258ac7982, type: 3}
+      gun: {fileID: 21300000, guid: 610d312ce78adf645b4a3385040fcf50, type: 3}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 0}
+      chassisLower: {fileID: 21300000, guid: 05111a9c471646a4498e790235e13b36, type: 3}
+      chassisTop: {fileID: 21300000, guid: bb5a1122f16b54f449d63658961e9e94, type: 3}
+      cogwheel: {fileID: 21300000, guid: 381bf0b0ce89c8541affca62afd4336a, type: 3}
+      smallWheel: {fileID: 21300000, guid: 0b1ac0f2c3f5c9943a626db6f15d9b81, type: 3}
+      wheel: {fileID: 21300000, guid: a0a55e2389c4e0b4ca6bab2eb6ab77ef, type: 3}
+      suspension: {fileID: 21300000, guid: 4c97bb6a44b1ad0419704342021bacab, type: 3}
+    boosters:
+    - phoenixAirstrike
+    - phoenixRepairKit
+    - phoenixCircleSaw
+    - phoenixShockwave
+    - phoenixMine
+    - phoenixForceField
+  - name: Reaper
+    id: tank4
+    cardType: 1
+    rarity: 1
+    fullSprite: {fileID: 21300000, guid: e4e5e7b1e305474e8b3d890d09416f67, type: 3}
+    bigCard: {fileID: 21300000, guid: 9960728b7c704807a853d8a5a1d5d71d, type: 3}
+    card: {fileID: 21300000, guid: b561180e39494668be3b49bbb231ea0d, type: 3}
+    coinValue: 2
+    type: 4
+    progression:
+      minStep:
+        damage: 30
+        reloadTime: 1
+        health: 130
+        acceleration: 1500
+        maxSpeed: 1600
+        brake: 1300
+        dps: 30
+      maxStep:
+        damage: 60
+        reloadTime: 1
+        health: 880
+        acceleration: 2000
+        maxSpeed: 1800
+        brake: 1300
+        dps: 60
+    prefab: {fileID: 1789989809059104090, guid: 4623d7d265d547029194a60c8c518706,
+      type: 3}
+    bullet:
+      type: 2
+      shootAudioName: minigunFiring
+      shootStartAudioName: minigunFiringStart
+      shootEndAudioName: minigunFiringEnd
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 0}
+      speed: 0
+      bulletGravityScale: 2
+      recoil: 100
+      hitForce: 25
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 15
+      explosionDelay: 1
+      warmupTime: 0.25
+      shootTime: 0.15
+      targetVarianceMin: -0.2
+      targetVarianceMax: 0.05
+      maxDistance: 40
+      maxTime: 3
+      preventSpriteRotation: 0
+    tankMass: 15
+    tankSkins:
+    - name: Green
+      price: 0
+      uiPreview: {fileID: 21300000, guid: 1b90f039381a416cb40dad74033d1d5c, type: 3}
+      gun: {fileID: 21300000, guid: 6a99d4e57e21f0748ae5a78fa505e703, type: 3}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: f8cd75b6cc257db4b826d0c73d03d5b4, type: 3}
+      chassisLower: {fileID: 21300000, guid: f33a40cba5915684a8fd77c9c8839e52, type: 3}
+      chassisTop: {fileID: 21300000, guid: c24308d9ba49c1f4e9c2930d5f16ebe7, type: 3}
+      cogwheel: {fileID: 21300000, guid: 9b975cb15f5a8c144b17458ae58eb006, type: 3}
+      smallWheel: {fileID: 21300000, guid: 63ff42d539d23e0409d03653b05942b8, type: 3}
+      wheel: {fileID: 21300000, guid: b09b5a3432428d4448dadecff2dd204b, type: 3}
+      suspension: {fileID: 21300000, guid: c52d9ad02dac29849b60980fd8ff17bb, type: 3}
+    - name: Digital
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: e6d9f1d672464559b7ec258418751ecf, type: 3}
+      gun: {fileID: 21300000, guid: 5e3a95bda58cf6545a2e8321bf10c6ba, type: 3}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 50ec64c96eca9ef489960539299e0a0e, type: 3}
+      chassisLower: {fileID: 21300000, guid: 1510d26654538a64d9633ab83b908758, type: 3}
+      chassisTop: {fileID: 21300000, guid: c0bb9b688ab59e245a1a021a6ad15f27, type: 3}
+      cogwheel: {fileID: 21300000, guid: 4401e629b19266748b0340f9a4e994cd, type: 3}
+      smallWheel: {fileID: 21300000, guid: 4a8e6c611ea0dfa45b677d4d8ed5b542, type: 3}
+      wheel: {fileID: 21300000, guid: 6ec476b97244f514aac810fb94906741, type: 3}
+      suspension: {fileID: 21300000, guid: 582fe3a282489dd43819aa0efa06aa27, type: 3}
+    - name: Hound
+      price: 2000
+      uiPreview: {fileID: 21300000, guid: b555060e971f4013b257c694724348e5, type: 3}
+      gun: {fileID: 21300000, guid: 1cc6c62d9dd113240ac0ab75718d4262, type: 3}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 4c23233544140794980d0548cf45d914, type: 3}
+      chassisLower: {fileID: 21300000, guid: 02f4647d74e81254fa544c5e64641c9c, type: 3}
+      chassisTop: {fileID: 21300000, guid: 22d920a687654444397077267502de63, type: 3}
+      cogwheel: {fileID: 21300000, guid: c6443eddd37040d49b2f42326019c8a6, type: 3}
+      smallWheel: {fileID: 21300000, guid: 9a7f71e0d28943b4ab2859ffb2edc8e3, type: 3}
+      wheel: {fileID: 21300000, guid: 117e494632db17b4fb16e831bd7e2bcf, type: 3}
+      suspension: {fileID: 21300000, guid: 498779a42429e2247a84fd18a19c87ed, type: 3}
+    boosters:
+    - reaperAirstrike
+    - reaperRepairKit
+    - reaperCircleSaw
+    - reaperShockwave
+    - reaperMine
+    - reaperForceField
+  - name: Barracuda
+    id: tank5
+    cardType: 1
+    rarity: 1
+    fullSprite: {fileID: 21300000, guid: 5ddbb6c932f142d48178c70572879394, type: 3}
+    bigCard: {fileID: 21300000, guid: 55d5236280014cb098e6e07d7fc0f3e5, type: 3}
+    card: {fileID: 21300000, guid: db6ca8a32ec54da981c982d6134c836c, type: 3}
+    coinValue: 2
+    type: 5
+    progression:
+      minStep:
+        damage: 6
+        reloadTime: 0.75
+        health: 200
+        acceleration: 1300
+        maxSpeed: 1200
+        brake: 800
+        dps: 20
+      maxStep:
+        damage: 18
+        reloadTime: 0.5
+        health: 880
+        acceleration: 1800
+        maxSpeed: 2000
+        brake: 800
+        dps: 39
+    prefab: {fileID: 1789989809059103773, guid: e09b2b9976ab4e60bae62969dcee4fcf,
+      type: 3}
+    bullet:
+      type: 4
+      shootAudioName: playerTankMissileFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103762, guid: 8fd9b6e77dbb45c9a95fa0942dbc0730,
+        type: 3}
+      speed: 20
+      bulletGravityScale: 3
+      recoil: 200
+      hitForce: 25
+      damageRange: 10
+      perMissileTime: 0.3
+      angleRandomization: 15
+      explosionDelay: 0
+      warmupTime: 0
+      shootTime: 0
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 2
+      preventSpriteRotation: 0
+    tankMass: 5.92
+    tankSkins:
+    - name: Green
+      price: 0
+      uiPreview: {fileID: 21300000, guid: 1b90f039381a416cb40dad74033d1d5c, type: 3}
+      gun: {fileID: 0}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 49b1adb2196b40d4295c31931d1b4b75, type: 3}
+      chassisLower: {fileID: 21300000, guid: 5ca8c05aff11f8b469b7af4fa9e937e5, type: 3}
+      chassisTop: {fileID: 21300000, guid: 25db8b949870edf46b2eaf4b9e2a0f22, type: 3}
+      cogwheel: {fileID: 0}
+      smallWheel: {fileID: 0}
+      wheel: {fileID: 0}
+      suspension: {fileID: 0}
+    - name: Motherland
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: 5c42e78e490b4b4c9462a1cf87ee8470, type: 3}
+      gun: {fileID: 0}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 9b304848816845d45ab03d92534a4b59, type: 3}
+      chassisLower: {fileID: 21300000, guid: 5769c0837573101468e1276fb9a2d835, type: 3}
+      chassisTop: {fileID: 21300000, guid: 02ed915a7325c824a83d439e40c4d22d, type: 3}
+      cogwheel: {fileID: 0}
+      smallWheel: {fileID: 0}
+      wheel: {fileID: 0}
+      suspension: {fileID: 0}
+    - name: Uncle Sam
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: ea6808c1994242fda0a61625a57164ec, type: 3}
+      gun: {fileID: 0}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: de0c7e11db6b64a4db1c3109a687eb30, type: 3}
+      chassisLower: {fileID: 21300000, guid: 1d0d2ab1d2a936b41a450b26e14a2d09, type: 3}
+      chassisTop: {fileID: 21300000, guid: 0633e2f198528e9408e37194afd53686, type: 3}
+      cogwheel: {fileID: 0}
+      smallWheel: {fileID: 0}
+      wheel: {fileID: 0}
+      suspension: {fileID: 0}
+    boosters:
+    - barracudaAirstrike
+    - barracudaRepairKit
+    - barracudaCircleSaw
+    - barracudaShockwave
+    - barracudaMine
+    - barracudaForceField
+  - name: Tesla
+    id: tank6
+    cardType: 1
+    rarity: 2
+    fullSprite: {fileID: 21300000, guid: 9a44eabd85154450957e313b2b9ccf1a, type: 3}
+    bigCard: {fileID: 21300000, guid: 3b60ba2fd3214cad93e0a55f29dd0850, type: 3}
+    card: {fileID: 21300000, guid: e69693a363c640faad807e671820a9e0, type: 3}
+    coinValue: 5
+    type: 6
+    progression:
+      minStep:
+        damage: 8
+        reloadTime: 0.75
+        health: 200
+        acceleration: 1300
+        maxSpeed: 1200
+        brake: 800
+        dps: 15
+      maxStep:
+        damage: 15
+        reloadTime: 0.4
+        health: 880
+        acceleration: 2500
+        maxSpeed: 2000
+        brake: 800
+        dps: 38
+    prefab: {fileID: 1789989809059103579, guid: f4b7dba27c794a01b3a1e7ebdf87ef72,
+      type: 3}
+    bullet:
+      type: 5
+      shootAudioName: playerTankMissileFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103762, guid: 8fd9b6e77dbb45c9a95fa0942dbc0730,
+        type: 3}
+      speed: 10
+      bulletGravityScale: 3
+      recoil: 200
+      hitForce: 25
+      damageRange: 10
+      perMissileTime: 0.3
+      angleRandomization: 15
+      explosionDelay: 0
+      warmupTime: 0
+      shootTime: 0
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 4
+      preventSpriteRotation: 0
+    tankMass: 10
+    tankSkins:
+    - name: Gold
+      price: 0
+      uiPreview: {fileID: 21300000, guid: a40b4fd7e54b6aa498a333294413dca3, type: 3}
+      gun: {fileID: 0}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 884084894c1e611498a38cef7f3f4672, type: 3}
+      chassisLower: {fileID: 21300000, guid: eb9a7db8fb431f9499fa55e7bf418dc4, type: 3}
+      chassisTop: {fileID: 21300000, guid: c70c6ce3c4fcb4b4a8a58d6de82b0778, type: 3}
+      cogwheel: {fileID: 21300000, guid: 3296e94e5cf584844a5d3da156e5492f, type: 3}
+      smallWheel: {fileID: 21300000, guid: e5a4059d16f17334094cc0af15b71e36, type: 3}
+      wheel: {fileID: 21300000, guid: 3fa053456da9ced4bb0842b306ea10b8, type: 3}
+      suspension: {fileID: 0}
+    - name: Organic
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: b4c3fca07f7151848bb8149b7407ab8d, type: 3}
+      gun: {fileID: 0}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: bfe38babed563a642bccd20aac6a7205, type: 3}
+      chassisLower: {fileID: 21300000, guid: c456088f9134d6f42873022d7f9f6ac9, type: 3}
+      chassisTop: {fileID: 21300000, guid: 10f0fff929098dd4b88c19d86618dd96, type: 3}
+      cogwheel: {fileID: 21300000, guid: af72d27170bf4d04eaacdd243e1d6345, type: 3}
+      smallWheel: {fileID: 21300000, guid: 1bb227e0b197a1c4aaf956acfc74e4e3, type: 3}
+      wheel: {fileID: 21300000, guid: ba5742795bf6a4544bee75496d07fa0c, type: 3}
+      suspension: {fileID: 0}
+    - name: Lightning
+      price: 2000
+      uiPreview: {fileID: 21300000, guid: 0de6005313592324e9bab09382747a22, type: 3}
+      gun: {fileID: 0}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: b52798ddb4de7024ab5624dbe5ad88ef, type: 3}
+      chassisLower: {fileID: 21300000, guid: 8c61d9db9fc724d49a71b165654c1e64, type: 3}
+      chassisTop: {fileID: 21300000, guid: c6d7071f9e0d42941ae5c019f5644286, type: 3}
+      cogwheel: {fileID: 21300000, guid: bba654a46de33a549affd692bf28fc1d, type: 3}
+      smallWheel: {fileID: 21300000, guid: 332ce9b36bebedf4da397d6b5f108395, type: 3}
+      wheel: {fileID: 21300000, guid: f9001d0e7d2e64d44bbd50ee0cd5704d, type: 3}
+      suspension: {fileID: 0}
+    boosters:
+    - teslaAirstrike
+    - teslaRepairKit
+    - teslaCircleSaw
+    - teslaShockwave
+    - teslaMine
+    - teslaForceField
+  - name: Mammoth
+    id: tank7
+    cardType: 1
+    rarity: 2
+    fullSprite: {fileID: 21300000, guid: 89f6ced8fbfc473aa300190156bac485, type: 3}
+    bigCard: {fileID: 21300000, guid: 5131f59201d349809887249090bbdf9e, type: 3}
+    card: {fileID: 21300000, guid: bd235a5a60bb454fa715c594a6c98e69, type: 3}
+    coinValue: 5
+    type: 7
+    progression:
+      minStep:
+        damage: 30
+        reloadTime: 2
+        health: 200
+        acceleration: 1300
+        maxSpeed: 1200
+        brake: 800
+        dps: 24
+      maxStep:
+        damage: 50
+        reloadTime: 1.5
+        health: 880
+        acceleration: 2300
+        maxSpeed: 2000
+        brake: 800
+        dps: 50
+    prefab: {fileID: 1789989809059103480, guid: a787612960b5414392fd2333bb729a8f,
+      type: 3}
+    bullet:
+      type: 0
+      shootAudioName: mammothFiring
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 0}
+      particleEffectBulletHitGround: {fileID: 0}
+      particleEffectBulletHitTank: {fileID: 0}
+      prefab: {fileID: 1789989809059103763, guid: 06e5a872974e4325865f92757dd3960e,
+        type: 3}
+      speed: 80
+      bulletGravityScale: 0
+      recoil: 1620
+      hitForce: 100
+      damageRange: 10
+      perMissileTime: 0.3
+      angleRandomization: 15
+      explosionDelay: 0
+      warmupTime: 0
+      shootTime: 0
+      targetVarianceMin: -0.025
+      targetVarianceMax: 0.025
+      maxDistance: 40
+      maxTime: 4
+      preventSpriteRotation: 0
+    tankMass: 10
+    tankSkins:
+    - name: Copper
+      price: 0
+      uiPreview: {fileID: 21300000, guid: fac961d6ba824fa48c7b2d5cd6fa0c27, type: 3}
+      gun: {fileID: 0}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 163f91e87a3eaa244b6907b7a8d8837e, type: 3}
+      chassisLower: {fileID: 21300000, guid: aae658a835f70bc468021bd866fcddb1, type: 3}
+      chassisTop: {fileID: 21300000, guid: 22d5228b97e29554cac8efbaf4019b18, type: 3}
+      cogwheel: {fileID: 21300000, guid: 367621bc2fea65d49bba7a114f6e0672, type: 3}
+      smallWheel: {fileID: 21300000, guid: dec45f601ae1e03438f48ad60261cbb9, type: 3}
+      wheel: {fileID: 21300000, guid: 402762760a40e6d4dbfe568683e43b23, type: 3}
+      suspension: {fileID: 21300000, guid: 61cc982c7d48a044897c78f4052eddfc, type: 3}
+    - name: Meteor
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: 8d393709b419465ab5d0428f10fe32ff, type: 3}
+      gun: {fileID: 0}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 229fcb18403baf74e9fda43cd7201eac, type: 3}
+      chassisLower: {fileID: 21300000, guid: 60cbf19bcd9ef5e44910a86d67e18ffc, type: 3}
+      chassisTop: {fileID: 21300000, guid: 5189cd028c7807a4cb4ac1c873f31443, type: 3}
+      cogwheel: {fileID: 21300000, guid: 367621bc2fea65d49bba7a114f6e0672, type: 3}
+      smallWheel: {fileID: 21300000, guid: dec45f601ae1e03438f48ad60261cbb9, type: 3}
+      wheel: {fileID: 21300000, guid: 402762760a40e6d4dbfe568683e43b23, type: 3}
+      suspension: {fileID: 21300000, guid: 61cc982c7d48a044897c78f4052eddfc, type: 3}
+    - name: Electronic
+      price: 2000
+      uiPreview: {fileID: 21300000, guid: 01c21e005d494bf2a89776084bd2817f, type: 3}
+      gun: {fileID: 0}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 136f0c009affea54b95443886c42f542, type: 3}
+      chassisLower: {fileID: 21300000, guid: 00f76091959b32540bb995f5767154d2, type: 3}
+      chassisTop: {fileID: 21300000, guid: 7bbb8dd538f02e34793428b784792f5b, type: 3}
+      cogwheel: {fileID: 21300000, guid: 367621bc2fea65d49bba7a114f6e0672, type: 3}
+      smallWheel: {fileID: 21300000, guid: dec45f601ae1e03438f48ad60261cbb9, type: 3}
+      wheel: {fileID: 21300000, guid: 402762760a40e6d4dbfe568683e43b23, type: 3}
+      suspension: {fileID: 21300000, guid: 61cc982c7d48a044897c78f4052eddfc, type: 3}
+    boosters:
+    - mammothAirstrike
+    - mammothRepairKit
+    - mammothCircleSaw
+    - mammothShockwave
+    - mammothMine
+    - mammothForceField
+  - name: Arachno
+    id: tank8
+    cardType: 1
+    rarity: 2
+    fullSprite: {fileID: 21300000, guid: c49f056303014df49aba16b2f6dbc088, type: 3}
+    bigCard: {fileID: 21300000, guid: c9df13c65949494eabedef2d50d8323d, type: 3}
+    card: {fileID: 21300000, guid: b34a89ba4ccf436eb97f2393e4fe3850, type: 3}
+    coinValue: 5
+    type: 8
+    progression:
+      minStep:
+        damage: 8
+        reloadTime: 1
+        health: 200
+        acceleration: 1.5
+        maxSpeed: 2.8
+        brake: 20
+        dps: 26
+      maxStep:
+        damage: 15
+        reloadTime: 0.75
+        health: 700
+        acceleration: 2
+        maxSpeed: 4
+        brake: 25
+        dps: 52
+    prefab: {fileID: 1789989809059103578, guid: aeb52781454848769161d22bb082e79a,
+      type: 3}
+    bullet:
+      type: 6
+      shootAudioName: spiderShoot
+      shootStartAudioName: 
+      shootEndAudioName: 
+      particleEffectShoot: {fileID: 1789989809059104150, guid: 48992ff9406443ed9f36ec76a7bf32a2,
+        type: 3}
+      particleEffectBulletHitGround: {fileID: 1789989809059104128, guid: f72f8a27203c4becb66b6a0cc27e3114,
+        type: 3}
+      particleEffectBulletHitTank: {fileID: 1789989809059104128, guid: f72f8a27203c4becb66b6a0cc27e3114,
+        type: 3}
+      prefab: {fileID: 1789989809059102782, guid: 071a18bf8ee2468dbaa86f3be5002a51,
+        type: 3}
+      speed: 20
+      bulletGravityScale: 0
+      recoil: 1.3
+      hitForce: 5
+      damageRange: 10
+      perMissileTime: 0.25
+      angleRandomization: 10
+      explosionDelay: 0
+      warmupTime: 0
+      shootTime: 0
+      targetVarianceMin: -0.05
+      targetVarianceMax: 0.05
+      maxDistance: 40
+      maxTime: 1.25
+      preventSpriteRotation: 1
+    tankMass: 25
+    tankSkins:
+    - name: Royal
+      price: 0
+      uiPreview: {fileID: 21300000, guid: a1eece7634024b6da36a151d20295c93, type: 3}
+      gun: {fileID: 21300000, guid: 22adde2a50e045e40a3d51ba6574dfb7, type: 3}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 02ff06c35861dbe49ad43d873328fe3e, type: 3}
+      chassisLower: {fileID: 21300000, guid: 152632756c11ce1418d492515b0ac97b, type: 3}
+      chassisTop: {fileID: 21300000, guid: b73b8111f190f5943865013e0d548098, type: 3}
+      cogwheel: {fileID: 21300000, guid: 16917591d59187448a1afcf874ffd386, type: 3}
+      smallWheel: {fileID: 21300000, guid: 05acb62b74122d44b9d34d0be273bec1, type: 3}
+      wheel: {fileID: 21300000, guid: e189c711c122f7f4b8ffd9189ad61e7a, type: 3}
+      suspension: {fileID: 21300000, guid: fa7813ff97deebf4b8642a7b043ada13, type: 3}
+    - name: Hero
+      price: 1000
+      uiPreview: {fileID: 21300000, guid: a03a96ca0623472b960c89181895174d, type: 3}
+      gun: {fileID: 21300000, guid: eee655ce2f885644ba1788d80f474820, type: 3}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 5458e17ac0fee9549bcb47b0e0af9e24, type: 3}
+      chassisLower: {fileID: 21300000, guid: 439cddf126217d84db0969abc5df7725, type: 3}
+      chassisTop: {fileID: 21300000, guid: 6f2656d67f364e845ad2d504f9e601b0, type: 3}
+      cogwheel: {fileID: 21300000, guid: a9ea1f57308eb074a8922a82ec21994c, type: 3}
+      smallWheel: {fileID: 21300000, guid: 5cfef2181ee4a024f9e967df8a6cd714, type: 3}
+      wheel: {fileID: 21300000, guid: 9d413b6aaa12ddf48a1b9ad84e911f53, type: 3}
+      suspension: {fileID: 21300000, guid: 3b9010cb4407e394a9243693986a843c, type: 3}
+    - name: Widow
+      price: 2000
+      uiPreview: {fileID: 21300000, guid: 1f664e1c92a94a3b8fdedf4f5ec575f3, type: 3}
+      gun: {fileID: 21300000, guid: 5b4d181ad1f92314b964cbb888f7d2c6, type: 3}
+      gunRecoil: {fileID: 0}
+      turret: {fileID: 21300000, guid: 7e8459ab0578b494cbf6c3d940133196, type: 3}
+      chassisLower: {fileID: 21300000, guid: 91b69e87084955b4ab878e8776b1744c, type: 3}
+      chassisTop: {fileID: 21300000, guid: 7502a6fbca8d31543a914b5efaba5bab, type: 3}
+      cogwheel: {fileID: 21300000, guid: 74dc3171d37c22541a60adbd7c189879, type: 3}
+      smallWheel: {fileID: 21300000, guid: 4fba3c00d49202e4ab11f32a4166304f, type: 3}
+      wheel: {fileID: 21300000, guid: 3d440cf2f6d01c94f895b8bc7f65f8e9, type: 3}
+      suspension: {fileID: 21300000, guid: da39c75d7f523cb4e88cbb3c987616c0, type: 3}
+    boosters:
+    - arachnoAirstrike
+    - arachnoRepairKit
+    - arachnoCircleSaw
+    - arachnoShockwave
+    - arachnoMine
+    - arachnoForceField
+  tankOrder: 000000000200000001000000030000000400000005000000060000000700000008000000
+  particleEffectShoot: {fileID: 1789989809059103380, guid: 811746f580af45df8051f72107d04553,
+    type: 3}
+  particleEffectBulletHitGround: {fileID: 1789989809059102806, guid: afeb43a9d2924574b68169a127f9c2e6,
+    type: 3}
+  particleEffectBulletHitTank: {fileID: 1789989809059103929, guid: f4187c3071194e7aa2cffbfec5a596ed,
+    type: 3}
+  coinsInsteadOfEnemiesChance: 0.25
+  coinGroupSize: 5
+  coinExtraSpacing: 2
+  ranks:
+  - xp: 5
+    name: "\u4E00\u7B49\u5175"
+    sprite: {fileID: 21300000, guid: c9f1d1a58a4d4f57b13b756be0025f82, type: 3}
+    smallSprite: {fileID: 21300000, guid: ed813158e531487b8a44e606da4fffa2, type: 3}
+    achievement: 0
+  - xp: 25
+    name: "\u4E0B\u58EB"
+    sprite: {fileID: 21300000, guid: cdc469016a1f4f4ba2e43903f30fe964, type: 3}
+    smallSprite: {fileID: 21300000, guid: 0dcfcb0f5d474f2798ed26841aa94731, type: 3}
+    achievement: 1
+  - xp: 50
+    name: "\u4E2D\u58EB"
+    sprite: {fileID: 21300000, guid: a3ac5c1231174b19a91c467c4b83b45a, type: 3}
+    smallSprite: {fileID: 21300000, guid: 197c3be5e1bd4f2a9580ea6ab06cb275, type: 3}
+    achievement: 2
+  - xp: 150
+    name: "\u5C11\u5C09"
+    sprite: {fileID: 21300000, guid: 84548b4eb88342808fa01f1efcad35d3, type: 3}
+    smallSprite: {fileID: 21300000, guid: 797dfe96d6374df784db56634f28f44d, type: 3}
+    achievement: 3
+  - xp: 300
+    name: "\u4E2D\u5C09"
+    sprite: {fileID: 21300000, guid: b1381c0eddf24fbe9f873ef67295d2f0, type: 3}
+    smallSprite: {fileID: 21300000, guid: 165dc368553a45be831ff1a1f12f07cb, type: 3}
+    achievement: 4
+  - xp: 600
+    name: "\u4E0A\u5C09"
+    sprite: {fileID: 21300000, guid: bf8cfcf844834b9a935f9ffeaa477e8b, type: 3}
+    smallSprite: {fileID: 21300000, guid: 6abeb70c4d4e4870ba624d41456b12d3, type: 3}
+    achievement: 5
+  - xp: 1000
+    name: "\u5C11\u6821"
+    sprite: {fileID: 21300000, guid: f5c9ae132c9a458c9edc71a0e376f17e, type: 3}
+    smallSprite: {fileID: 21300000, guid: 2a379e3fb2c54ccda5f25f05fa2c1543, type: 3}
+    achievement: 6
+  - xp: 1500
+    name: "\u4E2D\u6821"
+    sprite: {fileID: 21300000, guid: 34699082fee2457885ce43cc684c2375, type: 3}
+    smallSprite: {fileID: 21300000, guid: c9f77cbaf58d408c839e6b1766af2dc5, type: 3}
+    achievement: 7
+  - xp: 2100
+    name: "\u4E0A\u6821"
+    sprite: {fileID: 21300000, guid: 2f1cc537348c476e91a05e735ee64825, type: 3}
+    smallSprite: {fileID: 21300000, guid: 6217acb0945c4454b3a60145b5a5b866, type: 3}
+    achievement: 8
+  - xp: 2900
+    name: "\u5927\u6821"
+    sprite: {fileID: 21300000, guid: c6bc5f775b6c4070bac28dd657cc3730, type: 3}
+    smallSprite: {fileID: 21300000, guid: 6eef0a00a2174fb1816c82faf75659f2, type: 3}
+    achievement: 9
+  - xp: 4000
+    name: "\u5C11\u5C06"
+    sprite: {fileID: 21300000, guid: 4d66f3a5eb04450380a149d7f011daab, type: 3}
+    smallSprite: {fileID: 21300000, guid: e7690f35cd804a1b8175c5b107bf952c, type: 3}
+    achievement: 10
+  - xp: 5500
+    name: "\u4E2D\u5C06"
+    sprite: {fileID: 21300000, guid: f5d01c212aa942e7ab0d65446959aa72, type: 3}
+    smallSprite: {fileID: 21300000, guid: 9162e3c48aef4a0d889cb70ed0a353d0, type: 3}
+    achievement: 11
+  - xp: 7500
+    name: "\u5C06\u519B"
+    sprite: {fileID: 21300000, guid: 24170cfd56a34c2db1a4d9a2995c496b, type: 3}
+    smallSprite: {fileID: 21300000, guid: 570cbdb4675c4328ac71a4e89a0ed710, type: 3}
+    achievement: 12
+  dollarGemValue: 20
+  gemCoinValue: 33
+  premiumOfferMultiplier: 9
+  premiumOfferProbabilities:
+  - rarity: 0
+    probability: 0.1
+    stackSize:
+      min: 1
+      max: 1
+  - rarity: 1
+    probability: 0.39
+    stackSize:
+      min: 1
+      max: 1
+  - rarity: 2
+    probability: 0.51
+    stackSize:
+      min: 1
+      max: 1
+  premiumDailyOfferDiscounts:
+  - 0.15
+  - 0.2
+  - 0.25
+  dailyOfferDiscount:
+    min: 0.02
+    max: 0.05
+  dailyOfferStackSize:
+    min: 0.4
+    max: 0.6
+  reviveCost: 3
+  reviveTime: 10.5
+  reviveHealthRestore: 0.5
+  tankLevelMinMax:
+    min: 0
+    max: 14
+  tankRarityProgression:
+  - rarity: 0
+    levelUpCostCards: 060000000c00000012000000180000001e000000240000002b000000320000003a0000004000000048000000500000005900000064000000
+    levelUpCostCoins: 0a0000001e0000003c0000006400000096000000d20000001801000068010000c201000026020000940200000c0300008e0300001a040000
+    cardGemValue: 1
+  - rarity: 1
+    levelUpCostCards: 070000000e000000160000001d000000240000002b000000340000003c000000460000004d00000056000000600000006b00000078000000
+    levelUpCostCoins: 140000003c00000078000000c80000002c010000a401000030020000d0020000840300004c04000028050000180600001c07000034080000
+    cardGemValue: 2
+  - rarity: 2
+    levelUpCostCards: 09000000120000001b000000240000002d00000036000000410000004b00000057000000600000006c000000780000008600000096000000
+    levelUpCostCoins: 2800000078000000f000000090010000580200004803000060040000a00500000807000098080000500a0000300c0000380e000068100000
+    cardGemValue: 4
+  chests:
+  - rarity: 0
+    gemValue: 20
+    dropProbability: 0.79
+    sprite: {fileID: 21300000, guid: e0f1105b35624592b7230cee376ad735, type: 3}
+  - rarity: 1
+    gemValue: 60
+    dropProbability: 0.2
+    sprite: {fileID: 21300000, guid: 2876643027dc4925b0f0136747d63e33, type: 3}
+  - rarity: 2
+    gemValue: 120
+    dropProbability: 0.01
+    sprite: {fileID: 21300000, guid: a198acf6cbf04062b6df4129b0b1db21, type: 3}
+  chestRewards:
+  - rarity: 0
+    newTankCardProbability: 0.05
+    newTankCardsMax: 1
+    newBoosterCardProbability: 0.15
+    newBoosterCardsMax: 1
+    gemDropProbability: 0.1
+    tankCardPool:
+    - rarity: 0
+      probability: 0.95
+      stackSize:
+        min: 8
+        max: 18
+    - rarity: 1
+      probability: 0.049
+      stackSize:
+        min: 5
+        max: 11
+    - rarity: 2
+      probability: 0.001
+      stackSize:
+        min: 4
+        max: 8
+    tankCardCount:
+      min: 1
+      max: 2
+    boosterCardCount:
+      min: 1
+      max: 2
+    boosterStackSize:
+      min: 3
+      max: 9
+    coinCount:
+      min: 10
+      max: 20
+    gemCount:
+      min: 2
+      max: 2
+  - rarity: 1
+    newTankCardProbability: 0.15
+    newTankCardsMax: 1
+    newBoosterCardProbability: 0.21
+    newBoosterCardsMax: 2
+    gemDropProbability: 0.15
+    tankCardPool:
+    - rarity: 0
+      probability: 0.7
+      stackSize:
+        min: 12
+        max: 20
+    - rarity: 1
+      probability: 0.24
+      stackSize:
+        min: 15
+        max: 30
+    - rarity: 2
+      probability: 0.06
+      stackSize:
+        min: 12
+        max: 24
+    tankCardCount:
+      min: 2
+      max: 3
+    boosterCardCount:
+      min: 2
+      max: 3
+    boosterStackSize:
+      min: 10
+      max: 20
+    coinCount:
+      min: 40
+      max: 60
+    gemCount:
+      min: 2
+      max: 3
+  - rarity: 2
+    newTankCardProbability: 0.3
+    newTankCardsMax: 1
+    newBoosterCardProbability: 0.33
+    newBoosterCardsMax: 3
+    gemDropProbability: 0.2
+    tankCardPool:
+    - rarity: 0
+      probability: 0.5
+      stackSize:
+        min: 21
+        max: 30
+    - rarity: 1
+      probability: 0.38
+      stackSize:
+        min: 21
+        max: 30
+    - rarity: 2
+      probability: 0.12
+      stackSize:
+        min: 24
+        max: 48
+    tankCardCount:
+      min: 4
+      max: 5
+    boosterCardCount:
+      min: 3
+      max: 3
+    boosterStackSize:
+      min: 21
+      max: 30
+    coinCount:
+      min: 90
+      max: 120
+    gemCount:
+      min: 3
+      max: 4
+  chestProgression:
+  - type: 0
+    pointsToOpen: 3
+  - type: 1
+    pointsToOpen: 2
+  bundles:
+  - iapId: hillsofsteel.jokerbundle
+    showAfterTimesTried: 3
+  - iapId: hillsofsteel.titanbundle
+    showAfterTimesTried: 10
+  - iapId: hillsofsteel.phoenixbundle
+    showAfterTimesTried: 20
+  - iapId: hillsofsteel.reaperbundle
+    showAfterTimesTried: 30
+  - iapId: hillsofsteel.barracudabundle
+    showAfterTimesTried: 40
+  - iapId: hillsofsteel.teslabundle
+    showAfterTimesTried: 50
+  - iapId: hillsofsteel.mammothbundle
+    showAfterTimesTried: 60
+  - iapId: hillsofsteel.arachnobundle
+    showAfterTimesTried: 70
+  iapCoinCounts: 8813000028230000a861000060ea0000
+  dailyBonusAmounts: 1400000032000000500000006400000096000000c80000002c010000
+  scoreAchievements:
+  - score: 50
+    achievement: 17
+  - score: 100
+    achievement: 18
+  - score: 150
+    achievement: 19
+  - score: 200
+    achievement: 20
+  showAdsBeforeOffer: 3
+  boosters:
+  - name: cobraAirstrike
+    id: cobraAirstrike
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 45289bdabd9a478e8be18d3d3c00ceea, type: 3}
+    card: {fileID: 21300000, guid: 83964eaf0b2242a4a221d86b4d77d432, type: 3}
+    coinValue: 1
+    type: 1
+    activationType: 0
+    tankName: Cobra
+    inGameIcon: {fileID: 21300000, guid: 037e363c08ab43609748c32eda7b937b, type: 3}
+    minValue: 18
+    maxValue: 45
+  - name: cobraRepairKit
+    id: cobraRepairKit
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 3a929d3c88564e10a211100615a81f6f, type: 3}
+    card: {fileID: 21300000, guid: 060824b06b65482cba780d4452b0a8b0, type: 3}
+    coinValue: 1
+    type: 2
+    activationType: 0
+    tankName: Cobra
+    inGameIcon: {fileID: 21300000, guid: 5fa8f80117654ccfa473378a036e05b3, type: 3}
+    minValue: 0.1
+    maxValue: 0.2
+  - name: jokerAirstrike
+    id: jokerAirstrike
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 45289bdabd9a478e8be18d3d3c00ceea, type: 3}
+    card: {fileID: 21300000, guid: 83964eaf0b2242a4a221d86b4d77d432, type: 3}
+    coinValue: 1
+    type: 1
+    activationType: 0
+    tankName: Joker
+    inGameIcon: {fileID: 21300000, guid: 037e363c08ab43609748c32eda7b937b, type: 3}
+    minValue: 18
+    maxValue: 45
+  - name: jokerRepairKit
+    id: jokerRepairKit
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 3a929d3c88564e10a211100615a81f6f, type: 3}
+    card: {fileID: 21300000, guid: 060824b06b65482cba780d4452b0a8b0, type: 3}
+    coinValue: 1
+    type: 2
+    activationType: 0
+    tankName: Joker
+    inGameIcon: {fileID: 21300000, guid: 5fa8f80117654ccfa473378a036e05b3, type: 3}
+    minValue: 0.1
+    maxValue: 0.2
+  - name: titanAirstrike
+    id: titanAirstrike
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 45289bdabd9a478e8be18d3d3c00ceea, type: 3}
+    card: {fileID: 21300000, guid: 83964eaf0b2242a4a221d86b4d77d432, type: 3}
+    coinValue: 1
+    type: 1
+    activationType: 0
+    tankName: Titan
+    inGameIcon: {fileID: 21300000, guid: 037e363c08ab43609748c32eda7b937b, type: 3}
+    minValue: 18
+    maxValue: 45
+  - name: titanRepairKit
+    id: titanRepairKit
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 3a929d3c88564e10a211100615a81f6f, type: 3}
+    card: {fileID: 21300000, guid: 060824b06b65482cba780d4452b0a8b0, type: 3}
+    coinValue: 1
+    type: 2
+    activationType: 0
+    tankName: Titan
+    inGameIcon: {fileID: 21300000, guid: 5fa8f80117654ccfa473378a036e05b3, type: 3}
+    minValue: 0.1
+    maxValue: 0.2
+  - name: phoenixAirstrike
+    id: phoenixAirstrike
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 45289bdabd9a478e8be18d3d3c00ceea, type: 3}
+    card: {fileID: 21300000, guid: 83964eaf0b2242a4a221d86b4d77d432, type: 3}
+    coinValue: 1
+    type: 1
+    activationType: 0
+    tankName: Phoenix
+    inGameIcon: {fileID: 21300000, guid: 037e363c08ab43609748c32eda7b937b, type: 3}
+    minValue: 18
+    maxValue: 45
+  - name: phoenixRepairKit
+    id: phoenixRepairKit
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 3a929d3c88564e10a211100615a81f6f, type: 3}
+    card: {fileID: 21300000, guid: 060824b06b65482cba780d4452b0a8b0, type: 3}
+    coinValue: 1
+    type: 2
+    activationType: 0
+    tankName: Phoenix
+    inGameIcon: {fileID: 21300000, guid: 5fa8f80117654ccfa473378a036e05b3, type: 3}
+    minValue: 0.1
+    maxValue: 0.2
+  - name: reaperAirstrike
+    id: reaperAirstrike
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 45289bdabd9a478e8be18d3d3c00ceea, type: 3}
+    card: {fileID: 21300000, guid: 83964eaf0b2242a4a221d86b4d77d432, type: 3}
+    coinValue: 1
+    type: 1
+    activationType: 0
+    tankName: Reaper
+    inGameIcon: {fileID: 21300000, guid: 037e363c08ab43609748c32eda7b937b, type: 3}
+    minValue: 18
+    maxValue: 45
+  - name: reaperRepairKit
+    id: reaperRepairKit
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 3a929d3c88564e10a211100615a81f6f, type: 3}
+    card: {fileID: 21300000, guid: 060824b06b65482cba780d4452b0a8b0, type: 3}
+    coinValue: 1
+    type: 2
+    activationType: 0
+    tankName: Reaper
+    inGameIcon: {fileID: 21300000, guid: 5fa8f80117654ccfa473378a036e05b3, type: 3}
+    minValue: 0.1
+    maxValue: 0.2
+  - name: barracudaAirstrike
+    id: barracudaAirstrike
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 45289bdabd9a478e8be18d3d3c00ceea, type: 3}
+    card: {fileID: 21300000, guid: 83964eaf0b2242a4a221d86b4d77d432, type: 3}
+    coinValue: 1
+    type: 1
+    activationType: 0
+    tankName: Barracuda
+    inGameIcon: {fileID: 21300000, guid: 037e363c08ab43609748c32eda7b937b, type: 3}
+    minValue: 18
+    maxValue: 45
+  - name: barracudaRepairKit
+    id: barracudaRepairKit
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 3a929d3c88564e10a211100615a81f6f, type: 3}
+    card: {fileID: 21300000, guid: 060824b06b65482cba780d4452b0a8b0, type: 3}
+    coinValue: 1
+    type: 2
+    activationType: 0
+    tankName: Barracuda
+    inGameIcon: {fileID: 21300000, guid: 5fa8f80117654ccfa473378a036e05b3, type: 3}
+    minValue: 0.1
+    maxValue: 0.2
+  - name: cobraCircleSaw
+    id: cobraCircleSaw
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: a45fd71d3d344242bbd32da3f080b641, type: 3}
+    card: {fileID: 21300000, guid: e5b79f9f025f460d9217e7c52895f0e9, type: 3}
+    coinValue: 1
+    type: 3
+    activationType: 1
+    tankName: Cobra
+    inGameIcon: {fileID: 0}
+    minValue: 2
+    maxValue: 10
+  - name: jokerCircleSaw
+    id: jokerCircleSaw
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: a45fd71d3d344242bbd32da3f080b641, type: 3}
+    card: {fileID: 21300000, guid: e5b79f9f025f460d9217e7c52895f0e9, type: 3}
+    coinValue: 1
+    type: 3
+    activationType: 1
+    tankName: Joker
+    inGameIcon: {fileID: 0}
+    minValue: 2
+    maxValue: 10
+  - name: titanCircleSaw
+    id: titanCircleSaw
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: a45fd71d3d344242bbd32da3f080b641, type: 3}
+    card: {fileID: 21300000, guid: e5b79f9f025f460d9217e7c52895f0e9, type: 3}
+    coinValue: 1
+    type: 3
+    activationType: 1
+    tankName: Titan
+    inGameIcon: {fileID: 0}
+    minValue: 2
+    maxValue: 10
+  - name: phoenixCircleSaw
+    id: phoenixCircleSaw
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: a45fd71d3d344242bbd32da3f080b641, type: 3}
+    card: {fileID: 21300000, guid: e5b79f9f025f460d9217e7c52895f0e9, type: 3}
+    coinValue: 1
+    type: 3
+    activationType: 1
+    tankName: Phoenix
+    inGameIcon: {fileID: 0}
+    minValue: 2
+    maxValue: 10
+  - name: reaperCircleSaw
+    id: reaperCircleSaw
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: a45fd71d3d344242bbd32da3f080b641, type: 3}
+    card: {fileID: 21300000, guid: e5b79f9f025f460d9217e7c52895f0e9, type: 3}
+    coinValue: 1
+    type: 3
+    activationType: 1
+    tankName: Reaper
+    inGameIcon: {fileID: 0}
+    minValue: 2
+    maxValue: 10
+  - name: barracudaCircleSaw
+    id: barracudaCircleSaw
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: a45fd71d3d344242bbd32da3f080b641, type: 3}
+    card: {fileID: 21300000, guid: e5b79f9f025f460d9217e7c52895f0e9, type: 3}
+    coinValue: 1
+    type: 3
+    activationType: 1
+    tankName: Barracuda
+    inGameIcon: {fileID: 0}
+    minValue: 2
+    maxValue: 10
+  - name: cobraShockwave
+    id: cobraShockwave
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: f122036f71414d7795bf045ba9f22429, type: 3}
+    card: {fileID: 21300000, guid: dfe2b7e57a8c428bb75b74b885d6df84, type: 3}
+    coinValue: 1
+    type: 4
+    activationType: 0
+    tankName: Cobra
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: jokerShockwave
+    id: jokerShockwave
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: f122036f71414d7795bf045ba9f22429, type: 3}
+    card: {fileID: 21300000, guid: dfe2b7e57a8c428bb75b74b885d6df84, type: 3}
+    coinValue: 1
+    type: 4
+    activationType: 0
+    tankName: Joker
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: titanShockwave
+    id: titanShockwave
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: f122036f71414d7795bf045ba9f22429, type: 3}
+    card: {fileID: 21300000, guid: dfe2b7e57a8c428bb75b74b885d6df84, type: 3}
+    coinValue: 1
+    type: 4
+    activationType: 0
+    tankName: Titan
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: phoenixShockwave
+    id: phoenixShockwave
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: f122036f71414d7795bf045ba9f22429, type: 3}
+    card: {fileID: 21300000, guid: dfe2b7e57a8c428bb75b74b885d6df84, type: 3}
+    coinValue: 1
+    type: 4
+    activationType: 0
+    tankName: Phoenix
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: reaperShockwave
+    id: reaperShockwave
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: f122036f71414d7795bf045ba9f22429, type: 3}
+    card: {fileID: 21300000, guid: dfe2b7e57a8c428bb75b74b885d6df84, type: 3}
+    coinValue: 1
+    type: 4
+    activationType: 0
+    tankName: Reaper
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: barracudaShockwave
+    id: barracudaShockwave
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: f122036f71414d7795bf045ba9f22429, type: 3}
+    card: {fileID: 21300000, guid: dfe2b7e57a8c428bb75b74b885d6df84, type: 3}
+    coinValue: 1
+    type: 4
+    activationType: 0
+    tankName: Barracuda
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: teslaAirstrike
+    id: teslaAirstrike
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 45289bdabd9a478e8be18d3d3c00ceea, type: 3}
+    card: {fileID: 21300000, guid: 83964eaf0b2242a4a221d86b4d77d432, type: 3}
+    coinValue: 1
+    type: 1
+    activationType: 0
+    tankName: Tesla
+    inGameIcon: {fileID: 21300000, guid: 037e363c08ab43609748c32eda7b937b, type: 3}
+    minValue: 18
+    maxValue: 45
+  - name: teslaRepairKit
+    id: teslaRepairKit
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 3a929d3c88564e10a211100615a81f6f, type: 3}
+    card: {fileID: 21300000, guid: 060824b06b65482cba780d4452b0a8b0, type: 3}
+    coinValue: 1
+    type: 2
+    activationType: 0
+    tankName: Tesla
+    inGameIcon: {fileID: 21300000, guid: 5fa8f80117654ccfa473378a036e05b3, type: 3}
+    minValue: 0.1
+    maxValue: 0.2
+  - name: teslaCircleSaw
+    id: teslaCircleSaw
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: a45fd71d3d344242bbd32da3f080b641, type: 3}
+    card: {fileID: 21300000, guid: e5b79f9f025f460d9217e7c52895f0e9, type: 3}
+    coinValue: 1
+    type: 3
+    activationType: 1
+    tankName: Tesla
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 2
+    maxValue: 10
+  - name: teslaShockwave
+    id: teslaShockwave
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: f122036f71414d7795bf045ba9f22429, type: 3}
+    card: {fileID: 21300000, guid: dfe2b7e57a8c428bb75b74b885d6df84, type: 3}
+    coinValue: 1
+    type: 4
+    activationType: 0
+    tankName: Tesla
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: cobraMine
+    id: cobraMine
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: c5f5d397f0504ef496ec341ae47b6188, type: 3}
+    card: {fileID: 21300000, guid: a5cdf97f145640fda5ecaf033d425ac0, type: 3}
+    coinValue: 1
+    type: 5
+    activationType: 0
+    tankName: Cobra
+    inGameIcon: {fileID: 21300000, guid: 627c8950f5df42df9dbf094aa5b3680f, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: jokerMine
+    id: jokerMine
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: c5f5d397f0504ef496ec341ae47b6188, type: 3}
+    card: {fileID: 21300000, guid: a5cdf97f145640fda5ecaf033d425ac0, type: 3}
+    coinValue: 1
+    type: 5
+    activationType: 0
+    tankName: Joker
+    inGameIcon: {fileID: 21300000, guid: 627c8950f5df42df9dbf094aa5b3680f, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: titanMine
+    id: titanMine
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: c5f5d397f0504ef496ec341ae47b6188, type: 3}
+    card: {fileID: 21300000, guid: a5cdf97f145640fda5ecaf033d425ac0, type: 3}
+    coinValue: 1
+    type: 5
+    activationType: 0
+    tankName: Titan
+    inGameIcon: {fileID: 21300000, guid: 627c8950f5df42df9dbf094aa5b3680f, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: phoenixMine
+    id: phoenixMine
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: c5f5d397f0504ef496ec341ae47b6188, type: 3}
+    card: {fileID: 21300000, guid: a5cdf97f145640fda5ecaf033d425ac0, type: 3}
+    coinValue: 1
+    type: 5
+    activationType: 0
+    tankName: Phoenix
+    inGameIcon: {fileID: 21300000, guid: 627c8950f5df42df9dbf094aa5b3680f, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: reaperMine
+    id: reaperMine
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: c5f5d397f0504ef496ec341ae47b6188, type: 3}
+    card: {fileID: 21300000, guid: a5cdf97f145640fda5ecaf033d425ac0, type: 3}
+    coinValue: 1
+    type: 5
+    activationType: 0
+    tankName: Reaper
+    inGameIcon: {fileID: 21300000, guid: 627c8950f5df42df9dbf094aa5b3680f, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: barracudaMine
+    id: barracudaMine
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: c5f5d397f0504ef496ec341ae47b6188, type: 3}
+    card: {fileID: 21300000, guid: a5cdf97f145640fda5ecaf033d425ac0, type: 3}
+    coinValue: 1
+    type: 5
+    activationType: 0
+    tankName: Barracuda
+    inGameIcon: {fileID: 21300000, guid: 627c8950f5df42df9dbf094aa5b3680f, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: teslaMine
+    id: teslaMine
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: c5f5d397f0504ef496ec341ae47b6188, type: 3}
+    card: {fileID: 21300000, guid: a5cdf97f145640fda5ecaf033d425ac0, type: 3}
+    coinValue: 1
+    type: 5
+    activationType: 0
+    tankName: Tesla
+    inGameIcon: {fileID: 21300000, guid: 627c8950f5df42df9dbf094aa5b3680f, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: mammothAirstrike
+    id: mammothAirstrike
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 45289bdabd9a478e8be18d3d3c00ceea, type: 3}
+    card: {fileID: 21300000, guid: 83964eaf0b2242a4a221d86b4d77d432, type: 3}
+    coinValue: 1
+    type: 1
+    activationType: 0
+    tankName: Mammoth
+    inGameIcon: {fileID: 21300000, guid: 037e363c08ab43609748c32eda7b937b, type: 3}
+    minValue: 18
+    maxValue: 45
+  - name: mammothRepairKit
+    id: mammothRepairKit
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 3a929d3c88564e10a211100615a81f6f, type: 3}
+    card: {fileID: 21300000, guid: 060824b06b65482cba780d4452b0a8b0, type: 3}
+    coinValue: 1
+    type: 2
+    activationType: 0
+    tankName: Mammoth
+    inGameIcon: {fileID: 21300000, guid: 5fa8f80117654ccfa473378a036e05b3, type: 3}
+    minValue: 0.1
+    maxValue: 0.2
+  - name: mammothCircleSaw
+    id: mammothCircleSaw
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: a45fd71d3d344242bbd32da3f080b641, type: 3}
+    card: {fileID: 21300000, guid: e5b79f9f025f460d9217e7c52895f0e9, type: 3}
+    coinValue: 1
+    type: 3
+    activationType: 1
+    tankName: Mammoth
+    inGameIcon: {fileID: 0}
+    minValue: 2
+    maxValue: 10
+  - name: mammothShockwave
+    id: mammothShockwave
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: f122036f71414d7795bf045ba9f22429, type: 3}
+    card: {fileID: 21300000, guid: dfe2b7e57a8c428bb75b74b885d6df84, type: 3}
+    coinValue: 1
+    type: 4
+    activationType: 0
+    tankName: Mammoth
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: mammothMine
+    id: mammothMine
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: c5f5d397f0504ef496ec341ae47b6188, type: 3}
+    card: {fileID: 21300000, guid: a5cdf97f145640fda5ecaf033d425ac0, type: 3}
+    coinValue: 1
+    type: 5
+    activationType: 0
+    tankName: Mammoth
+    inGameIcon: {fileID: 21300000, guid: 627c8950f5df42df9dbf094aa5b3680f, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: cobraForceField
+    id: cobraForceField
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: dbbe1901a6ae4871bae61c0ae9cd6554, type: 3}
+    card: {fileID: 21300000, guid: 12c0118136554e8e9f958e8aea592c27, type: 3}
+    coinValue: 1
+    type: 6
+    activationType: 0
+    tankName: Cobra
+    inGameIcon: {fileID: 21300000, guid: 420189b9347e4c93b3b42218d34787bd, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: jokerForceField
+    id: jokerForceField
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: dbbe1901a6ae4871bae61c0ae9cd6554, type: 3}
+    card: {fileID: 21300000, guid: 12c0118136554e8e9f958e8aea592c27, type: 3}
+    coinValue: 1
+    type: 6
+    activationType: 0
+    tankName: Joker
+    inGameIcon: {fileID: 21300000, guid: 420189b9347e4c93b3b42218d34787bd, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: titanForceField
+    id: titanForceField
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: dbbe1901a6ae4871bae61c0ae9cd6554, type: 3}
+    card: {fileID: 21300000, guid: 12c0118136554e8e9f958e8aea592c27, type: 3}
+    coinValue: 1
+    type: 6
+    activationType: 0
+    tankName: Titan
+    inGameIcon: {fileID: 21300000, guid: 420189b9347e4c93b3b42218d34787bd, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: phoenixForceField
+    id: phoenixForceField
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: dbbe1901a6ae4871bae61c0ae9cd6554, type: 3}
+    card: {fileID: 21300000, guid: 12c0118136554e8e9f958e8aea592c27, type: 3}
+    coinValue: 1
+    type: 6
+    activationType: 0
+    tankName: Phoenix
+    inGameIcon: {fileID: 21300000, guid: 420189b9347e4c93b3b42218d34787bd, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: reaperForceField
+    id: reaperForceField
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: dbbe1901a6ae4871bae61c0ae9cd6554, type: 3}
+    card: {fileID: 21300000, guid: 12c0118136554e8e9f958e8aea592c27, type: 3}
+    coinValue: 1
+    type: 6
+    activationType: 0
+    tankName: Reaper
+    inGameIcon: {fileID: 21300000, guid: 420189b9347e4c93b3b42218d34787bd, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: barracudaForceField
+    id: barracudaForceField
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: dbbe1901a6ae4871bae61c0ae9cd6554, type: 3}
+    card: {fileID: 21300000, guid: 12c0118136554e8e9f958e8aea592c27, type: 3}
+    coinValue: 1
+    type: 6
+    activationType: 0
+    tankName: Barracuda
+    inGameIcon: {fileID: 21300000, guid: 420189b9347e4c93b3b42218d34787bd, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: teslaForceField
+    id: teslaForceField
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: dbbe1901a6ae4871bae61c0ae9cd6554, type: 3}
+    card: {fileID: 21300000, guid: 12c0118136554e8e9f958e8aea592c27, type: 3}
+    coinValue: 1
+    type: 6
+    activationType: 0
+    tankName: Tesla
+    inGameIcon: {fileID: 21300000, guid: 420189b9347e4c93b3b42218d34787bd, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: mammothForceField
+    id: mammothForceField
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: dbbe1901a6ae4871bae61c0ae9cd6554, type: 3}
+    card: {fileID: 21300000, guid: 12c0118136554e8e9f958e8aea592c27, type: 3}
+    coinValue: 1
+    type: 6
+    activationType: 0
+    tankName: Mammoth
+    inGameIcon: {fileID: 21300000, guid: 420189b9347e4c93b3b42218d34787bd, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: arachnoAirstrike
+    id: arachnoAirstrike
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 45289bdabd9a478e8be18d3d3c00ceea, type: 3}
+    card: {fileID: 21300000, guid: 83964eaf0b2242a4a221d86b4d77d432, type: 3}
+    coinValue: 1
+    type: 1
+    activationType: 0
+    tankName: Arachno
+    inGameIcon: {fileID: 21300000, guid: 037e363c08ab43609748c32eda7b937b, type: 3}
+    minValue: 18
+    maxValue: 45
+  - name: arachnoRepairKit
+    id: arachnoRepairKit
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: 3a929d3c88564e10a211100615a81f6f, type: 3}
+    card: {fileID: 21300000, guid: 060824b06b65482cba780d4452b0a8b0, type: 3}
+    coinValue: 1
+    type: 2
+    activationType: 0
+    tankName: Arachno
+    inGameIcon: {fileID: 21300000, guid: 5fa8f80117654ccfa473378a036e05b3, type: 3}
+    minValue: 0.1
+    maxValue: 0.2
+  - name: arachnoCircleSaw
+    id: arachnoCircleSaw
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: a45fd71d3d344242bbd32da3f080b641, type: 3}
+    card: {fileID: 21300000, guid: e5b79f9f025f460d9217e7c52895f0e9, type: 3}
+    coinValue: 1
+    type: 3
+    activationType: 1
+    tankName: Arachno
+    inGameIcon: {fileID: 0}
+    minValue: 2
+    maxValue: 10
+  - name: arachnoShockwave
+    id: arachnoShockwave
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: f122036f71414d7795bf045ba9f22429, type: 3}
+    card: {fileID: 21300000, guid: dfe2b7e57a8c428bb75b74b885d6df84, type: 3}
+    coinValue: 1
+    type: 4
+    activationType: 0
+    tankName: Arachno
+    inGameIcon: {fileID: 21300000, guid: dff04003ff50426c929d99b9f87bdb41, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: arachnoMine
+    id: arachnoMine
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: c5f5d397f0504ef496ec341ae47b6188, type: 3}
+    card: {fileID: 21300000, guid: a5cdf97f145640fda5ecaf033d425ac0, type: 3}
+    coinValue: 1
+    type: 5
+    activationType: 0
+    tankName: Arachno
+    inGameIcon: {fileID: 21300000, guid: 627c8950f5df42df9dbf094aa5b3680f, type: 3}
+    minValue: 0
+    maxValue: 1
+  - name: arachnoForceField
+    id: arachnoForceField
+    cardType: 0
+    rarity: 0
+    fullSprite: {fileID: 0}
+    bigCard: {fileID: 21300000, guid: dbbe1901a6ae4871bae61c0ae9cd6554, type: 3}
+    card: {fileID: 21300000, guid: 12c0118136554e8e9f958e8aea592c27, type: 3}
+    coinValue: 1
+    type: 6
+    activationType: 0
+    tankName: Arachno
+    inGameIcon: {fileID: 21300000, guid: 420189b9347e4c93b3b42218d34787bd, type: 3}
+    minValue: 0
+    maxValue: 1
+  boosterLevelUpCosts: 000000000a0000000f000000140000001900000028000000370000004b0000006e000000a0000000e60000004a010000e0010000b2020000e8030000
+  boosterCardsPerLevelUp: 000000000a0000001e0000003c0000006400000096000000d20000001801000068010000c201000026020000940200000c030000a2030000b0040000
+  maxCardsInReward: 5
+  circleSawPrefab: {fileID: 1789989809059102767, guid: deff863460904b9baf71d689717b8a5b,
+    type: 3}
+  coinPacks: []
+  rankStats:
+  - name: Lance Corporal
+    maxTrophies: 19
+    loseTrophies: 0
+    winTrophies: 6
+    coinRewards: 10
+    sprite: {fileID: 21300000, guid: dbfe0da314254bbe88a9b1014d1c025a, type: 3}
+    sprite2v2: {fileID: 21300000, guid: 84e202df2b214b529b799c5059907eea, type: 3}
+    smallSprite: {fileID: 21300000, guid: ed813158e531487b8a44e606da4fffa2, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 06b07f5e31ae43cbb39ca481f3a6e8f7, type: 3}
+  - name: Corporal
+    maxTrophies: 39
+    loseTrophies: 1
+    winTrophies: 6
+    coinRewards: 15
+    sprite: {fileID: 21300000, guid: 2ded51f98195438691aae4aaab492fc8, type: 3}
+    sprite2v2: {fileID: 21300000, guid: bf22198a5e274cb3bd74232fba4a80a4, type: 3}
+    smallSprite: {fileID: 21300000, guid: 0dcfcb0f5d474f2798ed26841aa94731, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 24504f79a28447cca586b367c715823d, type: 3}
+  - name: Sergeant
+    maxTrophies: 69
+    loseTrophies: 2
+    winTrophies: 6
+    coinRewards: 20
+    sprite: {fileID: 21300000, guid: bbb023937d9c42a3b51e04a4534cff9b, type: 3}
+    sprite2v2: {fileID: 21300000, guid: cf6631cbfc6b4a2c8ef7002f57942ed7, type: 3}
+    smallSprite: {fileID: 21300000, guid: 197c3be5e1bd4f2a9580ea6ab06cb275, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 9377f331390243d4b48d6ae46f60b699, type: 3}
+  - name: 2nd Lieutenant Name
+    maxTrophies: 99
+    loseTrophies: 2
+    winTrophies: 5
+    coinRewards: 25
+    sprite: {fileID: 21300000, guid: d9a6f3bbb9fe4e39a625982a281beba4, type: 3}
+    sprite2v2: {fileID: 21300000, guid: a4618ea3ea6f4658beb4ff31185a27ea, type: 3}
+    smallSprite: {fileID: 21300000, guid: 797dfe96d6374df784db56634f28f44d, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 7f7e99ada8004a21bbc3b4217e68164a, type: 3}
+  - name: 1st Lieutenant Name
+    maxTrophies: 129
+    loseTrophies: 3
+    winTrophies: 5
+    coinRewards: 30
+    sprite: {fileID: 21300000, guid: af235fef69dd46d78d67cd467bb09eba, type: 3}
+    sprite2v2: {fileID: 21300000, guid: 31d8cfd54421433286711fd9935cd17f, type: 3}
+    smallSprite: {fileID: 21300000, guid: 165dc368553a45be831ff1a1f12f07cb, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 9913c5a6a7844798a46e757ae2dc2e54, type: 3}
+  - name: Captain
+    maxTrophies: 199
+    loseTrophies: 4
+    winTrophies: 5
+    coinRewards: 35
+    sprite: {fileID: 21300000, guid: ac0003e5c2be474ab31dd06e51a3653d, type: 3}
+    sprite2v2: {fileID: 21300000, guid: f1512df7cbd74f7f84f4b56896d6d4ec, type: 3}
+    smallSprite: {fileID: 21300000, guid: 6abeb70c4d4e4870ba624d41456b12d3, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 975de2e6ac6a43fc9c3265e447db1dc6, type: 3}
+  - name: Major
+    maxTrophies: 399
+    loseTrophies: 5
+    winTrophies: 5
+    coinRewards: 40
+    sprite: {fileID: 21300000, guid: afe7735dfd0d4ca2888e836ab8a28b27, type: 3}
+    sprite2v2: {fileID: 21300000, guid: a4a4793195454c898e83f0fdd9203adb, type: 3}
+    smallSprite: {fileID: 21300000, guid: 2a379e3fb2c54ccda5f25f05fa2c1543, type: 3}
+    inGameSprite: {fileID: 21300000, guid: d8502acaa0ee47cb8a30b3bac49e7a61, type: 3}
+  - name: Lieutenant Colonel
+    maxTrophies: 499
+    loseTrophies: 6
+    winTrophies: 5
+    coinRewards: 45
+    sprite: {fileID: 21300000, guid: a95ffe82d2d34f649b985b87a0aaa27a, type: 3}
+    sprite2v2: {fileID: 21300000, guid: 5b65845a930549babbb49de95d98a31b, type: 3}
+    smallSprite: {fileID: 21300000, guid: c9f77cbaf58d408c839e6b1766af2dc5, type: 3}
+    inGameSprite: {fileID: 21300000, guid: a1b31becfbff4441af5bdfe01c9e96ae, type: 3}
+  - name: Colonel
+    maxTrophies: 599
+    loseTrophies: 6
+    winTrophies: 4
+    coinRewards: 50
+    sprite: {fileID: 21300000, guid: 69f4611247a043f1952528f6ad40044f, type: 3}
+    sprite2v2: {fileID: 21300000, guid: 08665b22fb5244fa8e063755bf07541b, type: 3}
+    smallSprite: {fileID: 21300000, guid: 6217acb0945c4454b3a60145b5a5b866, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 7c02b57dccb94aa5aef1db523d81cb84, type: 3}
+  - name: Brigadier General
+    maxTrophies: 699
+    loseTrophies: 6
+    winTrophies: 3
+    coinRewards: 60
+    sprite: {fileID: 21300000, guid: 2b25961ef3ab40e4ae1e6024c45465bc, type: 3}
+    sprite2v2: {fileID: 21300000, guid: 10ab512bf2be429496159586cc480b40, type: 3}
+    smallSprite: {fileID: 21300000, guid: 6eef0a00a2174fb1816c82faf75659f2, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 4727ae22240c4eefb7ebea8380d38126, type: 3}
+  - name: Major General
+    maxTrophies: 799
+    loseTrophies: 7
+    winTrophies: 3
+    coinRewards: 70
+    sprite: {fileID: 21300000, guid: 62a970d3de834bde876e7d299c872e16, type: 3}
+    sprite2v2: {fileID: 21300000, guid: 7e2d7c97381847a8b57b56431155123e, type: 3}
+    smallSprite: {fileID: 21300000, guid: e7690f35cd804a1b8175c5b107bf952c, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 52dbc517562842cd8104ec0d423049e7, type: 3}
+  - name: Lieutenant General
+    maxTrophies: 899
+    loseTrophies: 7
+    winTrophies: 2
+    coinRewards: 80
+    sprite: {fileID: 21300000, guid: 6c922ccf73c542c488dc9e7a4cc869d3, type: 3}
+    sprite2v2: {fileID: 21300000, guid: 684590361f564c85918bae7f23e63d99, type: 3}
+    smallSprite: {fileID: 21300000, guid: 9162e3c48aef4a0d889cb70ed0a353d0, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 3fe521ede5bb48e59ea64e36571038b2, type: 3}
+  - name: General
+    maxTrophies: 2000000000
+    loseTrophies: 8
+    winTrophies: 2
+    coinRewards: 100
+    sprite: {fileID: 21300000, guid: 7b4572fb29304dc9929866f04449596a, type: 3}
+    sprite2v2: {fileID: 21300000, guid: 2d314f6a496a4d63a02e9c1d5660c1c6, type: 3}
+    smallSprite: {fileID: 21300000, guid: 570cbdb4675c4328ac71a4e89a0ed710, type: 3}
+    inGameSprite: {fileID: 21300000, guid: 6f244392d9694394aafeb036c4c305bc, type: 3}
+  winStreakBonuses: 00000000010000000100000002000000020000000300000003000000040000000400000005000000
+  winStreakAchievements:
+  - streak: 3
+    mode: 1
+    achievement: 28
+  - streak: 6
+    mode: 1
+    achievement: 29
+  - streak: 10
+    mode: 1
+    achievement: 30
+  - streak: 3
+    mode: 2
+    achievement: 31
+  - streak: 6
+    mode: 2
+    achievement: 32
+  - streak: 10
+    mode: 2
+    achievement: 33
+  allyUniform:
+    hat: {fileID: 21300000, guid: 665a4fe264e742baa352fbd2e2f7158b, type: 3}
+    torso: {fileID: 21300000, guid: 8692777370364fdb9061f946be844d5a, type: 3}
+    arm: {fileID: 21300000, guid: 5b344919a9c942ea9c751f39b1221e5d, type: 3}
+    leg: {fileID: 21300000, guid: bba45bed188142ddba169b9b87b8ab18, type: 3}
+    foot: {fileID: 21300000, guid: 492c1de3aa11482283890e61e088451b, type: 3}
+  enemyUniform:
+    hat: {fileID: 21300000, guid: 495d2e60e60b488e9b7af11293820273, type: 3}
+    torso: {fileID: 21300000, guid: 0ef53870ed78496da53db7f6841e525d, type: 3}
+    arm: {fileID: 21300000, guid: 098f04ee85124b32bd2f7c3adeb4ac7c, type: 3}
+    leg: {fileID: 21300000, guid: c3cd2573c19a4669a28a26c69bee2d32, type: 3}
+    foot: {fileID: 21300000, guid: a75a0ebf2afd431ba15e200c334fbafa, type: 3}
+  vipUniform:
+    hat: {fileID: 21300000, guid: 4979fece1f5d4f5f953a9f2e538f9f6a, type: 3}
+    torso: {fileID: 21300000, guid: 76af46d55a94416ca17fb3944b277d9f, type: 3}
+    arm: {fileID: 21300000, guid: 5675ee12b61546cc89446f9dbe9da3f6, type: 3}
+    leg: {fileID: 21300000, guid: 0116c7d63c574467aae77fa777cbe0b9, type: 3}
+    foot: {fileID: 21300000, guid: 41222ef50b7c4a07838c57a7e2ad7e71, type: 3}
+  stageDifficultyAddition: 0.15
+  classicPerKillDifficultyAddition: 0.0075
+  bossRushCost:
+    currency: 1
+    amount: 2
+  bossRushStageReward: 10
+  bossSpawnOrder: 0700000008000000090000000a0000000b0000000d0000000f000000
+  bossRushDifficultyIncrease: 0.2
+  defaultButtonSprites:
+    defaultState: {fileID: 21300000, guid: 548cca7830dd4e749356cecec417a06f, type: 3}
+    disabledState: {fileID: 21300000, guid: 9819bdbddb944e0ba81aa38fdc99884d, type: 3}
+    toggledState: {fileID: 21300000, guid: f7d497c5850f4953bff30003853bfb36, type: 3}
+  roundedButtonSprites:
+    defaultState: {fileID: 21300000, guid: 769d2cfe38864a869def2ce11fadab0c, type: 3}
+    disabledState: {fileID: 21300000, guid: a4fb268be4cf47b1b52a9af18fabeaa0, type: 3}
+    toggledState: {fileID: 21300000, guid: 26a8e01df56f4ba4ae815ceb29750ae1, type: 3}
+  easterEggCoins: 25

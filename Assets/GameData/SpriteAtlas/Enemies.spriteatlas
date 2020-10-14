@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Enemies
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300010, guid: 7b6253ae16be4b329f315924e13e9355, type: 3}
+    - {fileID: 21300160, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300060, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300230, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300120, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300144, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300206, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300016, guid: 7b6253ae16be4b329f315924e13e9355, type: 3}
+    - {fileID: 21300174, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300012, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300186, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300098, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300064, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300078, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300048, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    - {fileID: 21300002, guid: 7b6253ae16be4b329f315924e13e9355, type: 3}
+    - {fileID: 21300218, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+    totalSpriteSurfaceArea: 830352
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300098, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300012, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300078, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300060, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300206, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300048, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300218, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300064, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300186, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300160, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300144, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300174, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300230, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300120, guid: 85ecb23994424b0d970538d3bbc68fe8, type: 3}
+  - {fileID: 21300016, guid: 7b6253ae16be4b329f315924e13e9355, type: 3}
+  - {fileID: 21300002, guid: 7b6253ae16be4b329f315924e13e9355, type: 3}
+  - {fileID: 21300010, guid: 7b6253ae16be4b329f315924e13e9355, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - jet_tail
+  - chopper_chassis
+  - tank_space_gun
+  - tank_mortartank_boss_turret
+  - tank_missile_projectile
+  - tank_mortartank_suspension
+  - tank_stuarttank_captaintorso
+  - chopper_sheet_bomberboss_hatch
+  - tank_tigertank_captaintorso
+  - tank_grenade_chassis_lower
+  - tank_machinegun_sheet_muzzleflash
+  - tank_grenade_boss_turret
+  - tank_paint_tesla_1
+  - tank_space_boss_gun
+  - tank_tigertank_boss_turret
+  - chopper_chassis_boss
+  - tank_missile_boss_missilebay
+  m_Tag: Enemies
+  m_IsVariant: 0

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &68707889500000
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: General
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 17d35573fe4c49c98b903b6c33e2493a, type: 3}
+    - {fileID: 21300000, guid: eba8a4916db54a7584ff67f3d59eefb9, type: 3}
+    - {fileID: 21300000, guid: da2630b82df14438b6d8d30e312ac02d, type: 3}
+    - {fileID: 21300000, guid: cfdefe4cd2184e5b9dbcfdcb5633a197, type: 3}
+    - {fileID: 21300000, guid: b792a288216349bb8d19f9d33e137aa9, type: 3}
+    - {fileID: 21300000, guid: 8c3098c05953435b81a6c5b3f048916d, type: 3}
+    - {fileID: 21300000, guid: 8875719d306a4eabaeed37434805fa1d, type: 3}
+    - {fileID: 21300000, guid: c697d3ac6a96427e87d76810c1117c9b, type: 3}
+    - {fileID: 21300000, guid: c0e1bdb9037347d6bce723511d9ed676, type: 3}
+    - {fileID: 21300000, guid: 580f91ec4e354169b62a5a8e37113c08, type: 3}
+    - {fileID: 21300000, guid: 495d2e60e60b488e9b7af11293820273, type: 3}
+    - {fileID: 21300000, guid: 3ca754d4701d415683aaf987eafad3ed, type: 3}
+    - {fileID: 21300000, guid: 09c7a1c517a145119495810c9deddd80, type: 3}
+    - {fileID: 21300000, guid: 665a4fe264e742baa352fbd2e2f7158b, type: 3}
+    - {fileID: 21300000, guid: 6c994ca57f454c5d9c899d09125442cf, type: 3}
+    - {fileID: 21300000, guid: ab2983f2cd4a4b3fab2348333d9bae1a, type: 3}
+    - {fileID: 21300000, guid: cbfdb0e39d3149b9aeb8e5a08395bf0e, type: 3}
+    - {fileID: 21300000, guid: 8417ead623bc494c9f70467101ffc090, type: 3}
+    - {fileID: 21300000, guid: 91f1fb138fa0417a909a2ac0ae193f95, type: 3}
+    - {fileID: 21300000, guid: 1b8bf34224294139850fce5087dff44a, type: 3}
+    - {fileID: 21300000, guid: 626b75c0fdb34bbbbcd2a758ce353e9f, type: 3}
+    - {fileID: 21300000, guid: c91d1719fba645e7bd702e142d054c70, type: 3}
+    - {fileID: 21300000, guid: 60bef99f1ea242539b9d5c4ebe5499ed, type: 3}
+    - {fileID: 21300000, guid: f5402ad7c9dc45ccb08060fd9e9aa1fc, type: 3}
+    totalSpriteSurfaceArea: 1051401
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 495d2e60e60b488e9b7af11293820273, type: 3}
+  - {fileID: 21300000, guid: 626b75c0fdb34bbbbcd2a758ce353e9f, type: 3}
+  - {fileID: 21300000, guid: 8c3098c05953435b81a6c5b3f048916d, type: 3}
+  - {fileID: 21300000, guid: eba8a4916db54a7584ff67f3d59eefb9, type: 3}
+  - {fileID: 21300000, guid: 1b8bf34224294139850fce5087dff44a, type: 3}
+  - {fileID: 21300000, guid: 665a4fe264e742baa352fbd2e2f7158b, type: 3}
+  - {fileID: 21300000, guid: ab2983f2cd4a4b3fab2348333d9bae1a, type: 3}
+  - {fileID: 21300000, guid: 91f1fb138fa0417a909a2ac0ae193f95, type: 3}
+  - {fileID: 21300000, guid: 17d35573fe4c49c98b903b6c33e2493a, type: 3}
+  - {fileID: 21300000, guid: cbfdb0e39d3149b9aeb8e5a08395bf0e, type: 3}
+  - {fileID: 21300000, guid: 3ca754d4701d415683aaf987eafad3ed, type: 3}
+  - {fileID: 21300000, guid: 6c994ca57f454c5d9c899d09125442cf, type: 3}
+  - {fileID: 21300000, guid: 09c7a1c517a145119495810c9deddd80, type: 3}
+  - {fileID: 21300000, guid: 8417ead623bc494c9f70467101ffc090, type: 3}
+  - {fileID: 21300000, guid: f5402ad7c9dc45ccb08060fd9e9aa1fc, type: 3}
+  - {fileID: 21300000, guid: b792a288216349bb8d19f9d33e137aa9, type: 3}
+  - {fileID: 21300000, guid: da2630b82df14438b6d8d30e312ac02d, type: 3}
+  - {fileID: 21300000, guid: c91d1719fba645e7bd702e142d054c70, type: 3}
+  - {fileID: 21300000, guid: c0e1bdb9037347d6bce723511d9ed676, type: 3}
+  - {fileID: 21300000, guid: cfdefe4cd2184e5b9dbcfdcb5633a197, type: 3}
+  - {fileID: 21300000, guid: c697d3ac6a96427e87d76810c1117c9b, type: 3}
+  - {fileID: 21300000, guid: 580f91ec4e354169b62a5a8e37113c08, type: 3}
+  - {fileID: 21300000, guid: 8875719d306a4eabaeed37434805fa1d, type: 3}
+  - {fileID: 21300000, guid: 60bef99f1ea242539b9d5c4ebe5499ed, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - tankdriver_brown_helmet
+  - clouds_1
+  - booster_shockwave
+  - particle_projectile_grenade_easter
+  - particle_projectile_laser
+  - tankdriver_helmet
+  - fx_blastwave
+  - particle_projectile
+  - booster_assets_circlesaw_arm
+  - enemydriver_hat1
+  - particle_projectile_mortar
+  - fx_blastmark
+  - particle_projectile_stuart
+  - particle_forcefield
+  - cloud1
+  - cloud2
+  - particle_projectile_spider
+  - foreground_decor_antitankbarrier
+  - particle_projectile_missile
+  - cloud3
+  - particle_projectile_grenade_0
+  - particle_projectile_mammoth
+  - booster_forcefield
+  - easteregg_ingame
+  m_Tag: General
+  m_IsVariant: 0
